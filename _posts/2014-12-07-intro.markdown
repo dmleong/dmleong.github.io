@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "Moving from front end to full stack"
+date:   2014-12-07 14:39:12
+categories: introduction
+---
+
+##tl;dr##
+>I'm a front end web developer trying to move to full stack. Follow along with my journey here. 
+
+###Part 1: I want to be a wizard###
+When you're a kid, you're told that college will have all the answers for you. That if you pick the right major, then you're set for life. You take SATs and ACTs and AP courses that all quantify how smart you are in relation to the other students in your class. You pick a college and you pick a major, thinking, "This is what I will do for the rest of my life!"
+
+No one ever tells you that this is rarely what happens. 
+
+I was fortunate enough to go to a UC school and graduate with a BA in Sociology and a minor in Business Management. I thought I wanted to do Marketing. I liked people. I liked how they thought. And I liked writing. I got my first job as a copywriter for a small tech firm in Orange County, CA. 
+
+Then I realized just how much I disliked copywriting, people, and Marketing. Something wasn't fitting. Something was unfulfilled. 
+
+Through a series of events, I found myself unemployed and decided I would use this time to study to become an engineer. I wanted to *make* things. The terminal was, and still is, one of the most magical things I have ever seen. You type a few mystery words and all of a sudden, magical lines of text appear and bam! Your computer has done something that couldn't be captured in a shiny, rounded button interface. It was pure magic. I wanted to be a wizard. 
+
+Two months later, I learned enough about web development to land a job at [Twilio](https://twilio.com) as the company's first front end web developer. I had done some web design at some former jobs and in high school, and managed to scrape by the technical interview. I had a long ways to go, though, and free online resources only teach you so much. I had never used git or made pull requests or even worked on a dynamic website. Looking at the code I wrote in those early days will make angels cry. 
+
+###Part 2: Chamber of Secrets###
+Nearly three years later, I find myself in an interesting spot. I'm restless with front end and want to learn more. Having never gotten a formal CS education, I find myself hitting a ceiling of knowledge. I'm familiar with concepts but I don't how to describe them in terminology that "normal" developers use. You can't exactly Google "my local env is broken and I don't know why". I've been strictly front end for the last few years, and I don't know how the entire stack works. 
+
+And worse: *I don't know what I don't know.* 
+
+This blog is going to be how I hold myself accountable. As someone who is intimately familiar with [Impostor Syndrome](http://geekfeminism.wikia.com/wiki/Impostor_syndrome), I hope that this blog will be useful for others who are trying to learn full stack, as well as to prove to myself that I'm not a moron on the days when it seems that is the only conclusion. 
+
+###Conclusion###
+I will be exploring concepts that seem "normal" to most engineers but are completely obscure to someone without a CS degree. For those of you who are also trying to learn web development, I hope that we'll be able to support one another in this difficult, annoying, infuriating, yet somehow incredibly rewarding journey. 
