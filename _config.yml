@@ -1,0 +1,12 @@
+# Site settings
+title: Danielle Leong dot com
+email: danielle@danielleleong.com
+description: > # this means to ignore newlines until "baseurl:"
+  Front end web developer trying to move to full stack. Follow my journey here
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://danielleleong.com" # the base hostname & protocol for your site
+twitter_username: tsunamino
+github_username:  dmleong
+
+# Build settings
+markdown: kramdown
