@@ -30,3 +30,5 @@ This blog is going to be how I hold myself accountable. As someone who is intima
 
 ###Conclusion###
 I will be exploring concepts that seem "normal" to most engineers but are completely obscure to someone without a CS degree. For those of you who are also trying to learn web development, I hope that we'll be able to support one another in this difficult, annoying, infuriating, yet somehow incredibly rewarding journey. 
+
+And yes, I'm still waiting for my Hogwarts letter. 
