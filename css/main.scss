@@ -64,7 +64,7 @@ html {
 }
 
 #hero {
-	background: url('../img/header.jpg') no-repeat center center;
+	background: url('../img/header-2X.jpg') no-repeat center center;
 	height: 600px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -88,6 +88,7 @@ html {
 	#hero {
 		height: 400px;
 		margin-top: -120px;
+		background: url('../img/header-mobile.jpg') no-repeat center center;
 
 		h1 {
 			margin-bottom: 0;
