@@ -27,6 +27,11 @@ $content-width:    1024px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+@mixin font-size($sizeValue: 16) {
+	font-size: $sizeValue + px;
+	font-size: ($sizeValue / 10) + rem;
+}
+
 
 
 // Using media queries with like this:
@@ -75,12 +80,55 @@ html {
 
 .hero-content {
 	width: 60%;
-	margin-top: 10%;
+	margin-top: 12%;
 	color: white;
 }
 
+@media screen and (max-width: 600px) {
+	#hero {
+		height: 400px;
+		margin-top: -120px;
+
+		h1 {
+			margin-bottom: 0;
+			@include font-size(16);
+		}
+	}
+
+	.hero-content {
+		margin-top: 28%;
+		width: 100%;
+	}
+}
+
+
+
 .site-header {
 	&.full {
-		border-bottom: none;
+		border-bottom: 1px solid transparent;
+	}
+}
+
+.site-title {
+	@include font-size(12);
+}
+
+@media screen and (max-width: 600px) {
+	.site-title {
+		@include font-size(10);
+	}
+}
+
+.site-nav .page-link {
+	@include font-size(10);
+}
+
+@media screen and (max-width: 600px) {
+	.site-nav {
+		top: 13px!important;
+
+		.menu-icon {
+			padding-top: 7px!important;
+		}
 	}
 }
