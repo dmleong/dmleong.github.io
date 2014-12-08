@@ -91,14 +91,18 @@ html {
 		background: url('../img/header-mobile.jpg') no-repeat left left;
 
 		h1 {
-			margin-bottom: 0;
-			@include font-size(16);
+			margin-bottom: 10px;
+			@include font-size(14);
+		}
+
+		p {
+			@include font-size(10);
 		}
 	}
 
 	.hero-content {
 		margin-top: 28%;
-		width: 100%;
+		width: 95%;
 	}
 }
 
