@@ -1,22 +1,14 @@
 ---
-layout: default
+layout: home
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">Front end web developer trying to move to full stack.</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-	        {{ post.excerpt }}
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
+	<div id="hero">
+		<div class="wrapper">
+			<div class="hero-content">
+				<h1>Make things work better</h1>
+				<p>I'm a San Francisco based web developer with a passion for making things work beautifully. Not actually a small green dinosaur.</p>
+			</div>
+		</div>
+	</div>
 </div>

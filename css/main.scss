@@ -6,10 +6,10 @@
 
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+$base-font-size:   18px;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-line-height: 1.8;
 
 $spacing-unit:     30px;
 
@@ -22,7 +22,7 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    1024px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
@@ -50,3 +50,37 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+#hero {
+	background: url('../img/header.jpg') no-repeat center center;
+	height: 600px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin-top: -60px;
+	padding-top: 60px;
+
+	h1 {
+		margin-bottom: 0;
+	}
+}
+
+.hero-content {
+	width: 60%;
+	margin-top: 10%;
+	color: white;
+}
+
+.site-header {
+	&.full {
+		border-bottom: none;
+	}
+}
