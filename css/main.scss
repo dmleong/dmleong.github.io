@@ -15,7 +15,7 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      #008EA8;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -59,59 +59,26 @@ $on-laptop:        800px;
 html {
 	box-sizing: border-box;
 }
+
 *, *:before, *:after {
 	box-sizing: inherit;
 }
 
-//#hero {
-//	background: url('../img/header-2X.jpg') no-repeat center center;
-//	height: 600px;
-//	-webkit-background-size: cover;
-//	-moz-background-size: cover;
-//	-o-background-size: cover;
-//	background-size: cover;
-//	margin-top: -60px;
-//	padding-top: 60px;
-//
-//	h1 {
-//		margin-bottom: 0;
-//	}
-//}
+::-moz-selection {
+	background-color: $brand-color;
+	color: #ffffff;
+}
+
+::selection {
+	background-color: $brand-color;
+	color: #ffffff;
+}
 
 .hero-content {
 	width: 60%;
 	margin-top: 12%;
 	color: white;
 }
-
-//@media screen and (max-width: 600px) {
-//	#hero {
-//		height: 400px;
-//		margin-top: -120px;
-//		background: url('../img/header-mobile.jpg') no-repeat left left;
-//
-//		h1 {
-//			margin-bottom: 10px;
-//			@include font-size(14);
-//		}
-//
-//		p {
-//			@include font-size(10);
-//		}
-//	}
-//
-//	.hero-content {
-//		margin-top: 28%;
-//		width: 95%;
-//	}
-//
-//	.footer-col-2 li {
-//		display: inline-block;
-//		padding-right: 50px;
-//	}
-//}
-
-
 
 .site-header {
 	&.full {
