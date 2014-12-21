@@ -3,6 +3,8 @@ layout: post
 title:  "Moving from front end to full stack"
 date:   2014-12-07 14:39:12
 categories: blog
+author: Danielle Leong
+comments: True
 excerpt: "I'm a front end web developer trying to move to full stack. Follow along with my journey here." 
 ---
 

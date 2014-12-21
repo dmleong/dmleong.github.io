@@ -7,6 +7,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://danielleleong.com" # the base hostname & protocol for your site
 twitter_username: tsunamino
 github_username:  dmleong
+linkedin:  "http://www.linkedin.com/in/danielleleong/"
+disqusid: danielleleong
 paginate: 10
 paginate_path: "blog/page:num/"
 

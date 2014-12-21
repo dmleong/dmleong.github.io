@@ -116,6 +116,19 @@ html {
 .site-header {
 	&.full {
 		border-bottom: 1px solid transparent;
+
+		&.dark {
+			background: #424242;
+			color: #c8c8c8;
+
+			a {
+				color: #c8c8c8;
+			}
+
+			.site-title {
+				color: #c8c8c8;
+			}
+		}
 	}
 }
 
@@ -147,4 +160,37 @@ img {
 	margin: 0 auto;
 	text-align: center;
 	display: block;
+}
+
+input[type="EMAIL"] {
+	width: 85%;
+	@include font-size(10);
+	padding: 4px;
+	color: #C7C7C7;
+}
+
+.button {
+	@include font-size(10);
+	padding: 7px 19px;
+	background: #FFFFFF;
+	border: 1px solid #515050;
+	margin-top: 5px;
+	transition: background-color 0.1s ease;
+
+	&:hover {
+		background: #E0E0E0;
+		color: #151515;
+
+	}
+}
+
+.twitter-plug {
+	@include font-size(10);
+	font-style: italic;
+	margin-top: 50px;
+}
+
+.comments {
+	border-top: 1px solid #e8e8e8;
+	margin-top: 50px;
 }

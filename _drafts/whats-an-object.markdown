@@ -2,6 +2,8 @@
 layout: post
 title:  "What's an object?"
 date:   2014-12-07 14:39:12
+author: Danielle Leong
+comments: True
 categories: blog
 excerpt: "You'd think that I would know what an object in Object Oriented Programming was." 
 ---
