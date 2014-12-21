@@ -162,6 +162,36 @@ img {
 	display: block;
 }
 
+.post-image {
+	width: 250px;
+	height: auto;
+	display: inline-block;
+	background: #888888;
+	border: 1px solid #515050;
+}
+
+@media screen and (max-width: 600px) {
+	.post-image {
+		display: block;
+		width: 100%;
+	}
+}
+
+.post-data {
+	display: inline-block;
+	vertical-align: top;
+	width: calc(90% - (250px));
+	padding-left: 3%;
+}
+
+@media screen and (max-width: 600px) {
+	.post-data {
+		display: block;
+		width: 100%;
+		padding-left: 0;
+	}
+}
+
 input[type="EMAIL"] {
 	width: 85%;
 	@include font-size(10);

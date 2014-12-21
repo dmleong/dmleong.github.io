@@ -6,6 +6,7 @@ author: Danielle Leong
 comments: True
 categories: blog
 excerpt: "You'd think that I would know what an object in Object Oriented Programming was." 
+excerpt-photo: /img/posts/magnets.jpg
 ---
 
 ##tl;dr##
@@ -30,7 +31,7 @@ For this lesson, we're going to need to be familiar with the following terms:
 * Instance 
 * Function
 
-And because I like baking, I'll use the class `Recipe`. And because my main language is PHP, this example is going to be in PHP. Yes, I'm aware it's a terrible language.
+And because I like baking, I'll use the class `Recipe`. And because my main language is PHP, this example is going to be in PHP. I know nobody likes PHP, but it's an easy beginner language, so bear with me! 
 
 
 {% highlight php linenos %}
@@ -137,5 +138,9 @@ With our `Brownie` object, we can see that while the basic `Recipe` is still the
 ###Scope###
 "But wait!" you exclaim. "Why do we get a different amount of cookies and brownies but they use the same function of `bake()`?" This is where something called scope comes into play. Scope is best described as the things (such as variables or functions) available to you at a given point. 
 
+<img src="/img/posts/scope.png" alt="Scope box model"/>
+
+Things with a global scope will be available to the overall `Class` and everything inside of it it (all `Objects` and `Functions`) will be able to use global variables and functions. Things within specific `Objects` are only available to the `Object` and the `Functions` within it. Variables used in a `Function` are only available to that `Function`. It's like an apartment: a landlord can have global keys and be able to get into the common area and your apartment, but your apartment key doesn't work on anyone else's apartment.  
 
 ##Conclusion##
+Object Oriented Programming is an incredibly important thing to learn, but it's not always easy to understand all the different parts. People use all sorts of examples to try to explain it, but it didn't really click with me until someone sat down and explained it to me in plain English using an example that I was intimately familiar with. This is just one way that I've found helped me learn. Hopefully it was helpful for you! 
