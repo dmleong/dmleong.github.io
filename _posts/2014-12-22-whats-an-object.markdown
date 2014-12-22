@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What's an object? A beginner's guide to Object Oriented Programming"
-date:   2014-12-07 14:39:12
+date:   2014-12-22
 author: Danielle Leong
 comments: True
 categories: blog
