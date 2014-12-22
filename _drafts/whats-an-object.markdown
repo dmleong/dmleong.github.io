@@ -12,7 +12,7 @@ excerpt-photo: /img/posts/magnets.jpg
 ##tl;dr##
 >Object Oriented Programming (OOP) is an incredibly important concept that is incredibly difficult to explain to a new person. This post will attempt to break down the concept of OOP into plain English.
 
-###Objects. How do they even work? ###
+###Objects. How do they work? ###
 <img src="/img/posts/magnets.jpg" alt="Magnets." />
 
 When I started programming, the term Object Oriented Programming (OOP) was being thrown around constantly, but the plethora of knowledge out there on the internet doesn't always take into consideration that *newbies don't know how to read technical documentation*. Technical documentation, even that which is aimed at new programmers, often forgets to take into consideration the basics that one is "supposed to know". One of these things, I found, was as simple as explaining what an object is. 
