@@ -27,6 +27,7 @@ For this lesson, we will cover the following terms:
 * Constructor
 * Object
 * Instance 
+* Inheritance
 * Function
 
 And because I like baking, I'll use the class `Recipe`.
@@ -62,81 +63,131 @@ class Recipe {
 
 
 ###Class###
-In this example, `Recipe` is an example of a `Class`. A `Class` is your source of truth or set of basic instructions for the thing you're trying to make.  
+In this example, `Recipe` is an example of a `Class`. A `Class` is your source of truth or set of basic instructions for the thing you're trying to make. It should be pretty vague and generic so that you can reuse it in other situations. At its most basic core concept, a recipe is a list of ingredients and a list of steps you follow with those ingredients. 
 
 ###Constructor###
-Your `Constructor` (line 10 contains instructions on how you want to *build* (or instantiate) your `Class`.  
+Your `Constructor` (line 7) contains instructions on how you want to *build* (or instantiate) your `Class`. In this case, you build your recipe by having a list of ingredients and a list of steps. 
+
 
 ###Object###
-The `Object` here is the `new Cookie()` on line 26. Here, we are using our original instructions in `Recipe` (take your flour, sugar, and butter) and specifying how many cups of each are needed in this specific `Object` of `$sugarCookie`. It an *instantiation* of your original `Recipe`, which means you're cloning your `Class` (Recipe) and modifying it to fit your `Object`'s needs (Cookie). 
 
-###Instance###
-Your `Instance` is `$sugarCookie = new Cookie()` on line 37. Think of them as "this specific batch of baked items" or "a specific `Object` we've built".
+Now we want to actually do something with our recipe. 
+{% highlight php %}
 
-###Function### 
-Your `Function` here is `bake()`, (sometimes called a `Method`). I like to think of them as verbs. They do things to the variables. Our functions should always be small and reusable. In this case, `bake()` adds our ingredients together and we do some pseudo baking math to get the number of baked goods the recipe makes. 
-
-##Multiple classes##
-
-Now if we want to add another instance of our `Recipe` we can create a `Brownie` object. 
-
-{% highlight php linenos %}
-<? php
-class Recipe {
-	public $flourCups;
-	public $sugarCups;
-	public $butterSticks;
-	public $goodsMade;
-	public $bakeTemp;
-
-	public function __construct() {
-		$this->bakeTemp = "350 degrees Fahrenheit";
-	}
-}
-
-class Cookie extends Recipe {
-	var $flourCups = 3;
-	var $sugarCups = 3;
-	var $butterSticks = 2;
-
-	function bake() {
-		$this->goodsMade = ($this->flourCups + $this->sugarCups + $this->butterSticks) * 3;
-		return $this->goodsMade . " cookies made";
-	}
-}
-
-class Brownie extends Recipe {
-	var $flourCups = 1.5;
-	var $sugarCups = 2.5;
-	var $butterSticks = 2;
-	var $chocolate = 3;
-
-	function bake() {
-		$this->goodsMade = ($this->flourCups + $this->sugarCups + $this->butterSticks + $this->chocolate) * 2;
-		return $this->goodsMade . " brownies made";
-	}
-}
-
-$sugarCookie = new Cookie();
-$sugarCookie->bake();
-//Returns "24 cookies made"
-
-$brownies = new Brownie();
-$brownies->bake();
-//Returns "18 brownies made"
+$sugarCookie = new Recipe();
+$sugarCookie->addIngredients(array("sugar", "flour", "butter", "vanilla", "eggs"));
+$sugarCookie->addStep(array("Mix together", "Cut out shapes", "Put in oven"));
+$sugarCookie->printOutput();
 
 {% endhighlight %}
 
-With our `Brownie` object, we can see that while the basic `Recipe` is still there, we have some slightly different variables, such as adding chocolate to the recipe. Our `bake()` function is also uses slightly different math to get the number of baked goods that come out of our brownie recipe, since a typical brownie recipe usually makes less items than a cookie recipe.
+We want to make an actual item (`Object`) by cloning our original recipe (`Class`) and modifying it to fit our needs. Here, we create a new instance of `Recipe` and call it `$sugarCookie`. We add an array of ingredients, run our cookie magic, and get magic tasty goodies out of it.  
+
+###Instance###
+An `Instance` is a copy of a `Class`. `$sugarCookie` is an instance of `Recipe`. We can make as many `Instances` of `Recipe` as we want! 
+
+{% highlight php %}
+$pie = new Recipe();
+$pie->addIngredients(array("crust", "filling", "more crust"));
+$pie->addStep(array("Roll out crust", "Fill with filling", "Roll out top crust", "Put in oven"));
+$pie->printOutput();
+
+{% endhighlight %}
+
+Here we have `$pie` as another `Instance` of our original class of `Recipe`. We have completely different variables (pie crust and filling) but the same basic structure is the same as `$sugarCookie`. 
+
+###Inheritance###
+Remember how I said a `Class` should be as vague as possible? The reason is because of `Inheritance`. 
+
+{% highlight php %}
+
+class Brownie extends Recipe {
+
+	public function Brownie() {
+		parent::Recipe();
+		$this->ingredients[] = "chocolate";
+	}
+}
+
+$brownie = new Brownie();
+$brownie->addIngredients(array("sugar", "flour", "butter", "eggs"));
+$brownie->addStep(array("Mix together", "Add frosting"));
+$brownie->printOutput();
+
+{% endhighlight %}
+
+Here we are extending our `Recipe` to create a new class of `Brownie`. Since all brownies have a lot of chocolate, it makes sense that our `Brownie` class should add it by default. So while our `Brownie` class inherits all of the basic ingredients and steps from our `Recipe` class, it doesn't do enough to cover this specific class's needs, so we modify it as needed.
+
+
+###Function### 
+Looking through our `Recipe` we see things like `pubic function addIngredients()`. This is an example of a `Function`. I like to think of functions as verbs. They do things to the variables (in this case, ingredients). Our functions should always be small and reusable to avoid surprises. In this case, `addIngredients` makes a list of the ingredients we need. 
+
+###Let's look at it all together###
+
+{% highlight php linenos %}
+<?php
+//Make a new recipe class that is easy to duplicate 
+class Recipe {
+	protected $ingredients;
+	protected $steps;
+
+	public function Recipe() { //the constructor that builds our class
+		$this->ingredients = array();
+		$this->steps = array();
+	}
+
+	public function addIngredients($ingredient) {
+		$this->ingredients[] = $ingredient; //adds ingredients to an array
+	}
+
+	public function addStep($step) {
+		$this->steps = $step; //adds steps to an array
+	}
+
+	public function printOutput() {
+		print_r ($this->ingredients); //prints our output
+		print_r ($this->steps);
+	}
+}
+
+//Create a new instance of Recipe called $sugarCookie
+$sugarCookie = new Recipe();
+$sugarCookie->addIngredients(array("sugar", "flour", "butter", "vanilla", "eggs"));
+$sugarCookie->addStep(array("Mix together", "Cut out shapes", "Put in oven"));
+$sugarCookie->printOutput();
+
+//Create a new instance of Recipe called $pie
+$pie = new Recipe();
+$pie->addIngredients(array("crust", "filling", "more crust"));
+$pie->addStep(array("Roll out crust", "Fill with filling", "Roll out top crust", "Put in oven"));
+$pie->printOutput();
+
+
+//Extend Recipe to create a new class of Brownie. Brownie inherits from Recipe
+class Brownie extends Recipe {
+	public function Brownie() {
+		parent::Recipe(); //inherits the parent class's constructor 
+		$this->ingredients[] = "8 lbs of chocolate";
+	}
+}
+
+//Create a new instance of Brownie called $brownie
+$brownie = new Brownie();
+$brownie->addIngredients(array("sugar", "flour", "butter", "eggs"));
+$brownie->addStep(array("Mix together", "Add frosting"));
+$brownie->printOutput();
+
+{% endhighlight %}
+
 
 ###Scope###
-"But wait!" you exclaim. "Why do we get a different amount of cookies and brownies but they use the same function of `bake()`?" This is where something called scope comes into play. Scope is best described as the things (such as variables or functions) available to you at a given point. 
+"But wait!" you exclaim. "If we're using the same constructor in `Recipe` and `Brownie`, how come we don't end up with chocolate in our `$pie`? This is where something called scope comes into play. Scope is best described as the things (such as variables or functions) available to you at a given point. Looking at the graph below, variables and functions are available for inheritance (think of your parents giving you their DNA) but you're unable to inherit "up" (you cannot affect your parents' DNA). 
 
 <img src="/img/posts/scope.png" alt="Scope box model"/>
 
-Things with a global scope will be available to the overall `Class` and everything inside of it it (all `Objects` and `Functions`) will be able to use global variables and functions. Things within specific `Objects` are only available to the `Object` and the `Functions` within it. Variables used in a `Function` are only available to that `Function`. It's like an apartment: a landlord can have global keys and be able to get into the common area and your apartment, but your apartment key doesn't work on anyone else's apartment.  
+Everything in our `Class` (all `Objects` and `Functions`) are available for use in all `Objects` that inherit (or extend) that class. Things within specific `Objects` are only available to the `Object` and the `Functions` within it. Variables used in a `Function` are only available to that `Function`. It's like an apartment: a landlord can have the master keys and be able to get into the common area and your apartment, but your apartment key doesn't work on anyone else's apartment.  
 
 ##Conclusion##
 Object Oriented Programming is an incredibly important thing to learn, but it's not always easy to understand all the different parts. People use all sorts of examples to try to explain it, but it didn't really click with me until someone sat down and explained it to me in plain English using an example that I was intimately familiar with. This is just one way that I've found helped me learn. Hopefully it was helpful for you! 
 
-<a href="http://www.seriouseats.com/recipes/2013/12/the-food-lab-best-chocolate-chip-cookie-recipe.html">And here's that cookie recipe</a>. 
+<a href="http://www.seriouseats.com/recipes/2013/12/the-food-lab-best-chocolate-chip-cookie-recipe.html">And here's my favorite cookie recipe</a>. 
