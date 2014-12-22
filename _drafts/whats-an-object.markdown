@@ -120,7 +120,7 @@ Here we are extending our `Recipe` to create a new class of `Brownie`. Since all
 
 
 ###Function### 
-Looking through our `Recipe` we see things like `pubic function addIngredients()`. This is an example of a `Function`. I like to think of functions as verbs. They do things to the variables (in this case, ingredients). Our functions should always be small and reusable to avoid surprises. In this case, `addIngredients` makes a list of the ingredients we need. 
+Looking through our `Recipe` we see things like `pubic function addIngredients()`. This is an example of a `Function`. I like to think of functions as verbs. They do things to the variables (in this case, ingredients). Our functions should always be small and reusable to avoid surprises. In this case, `addIngredients` makes a list of the ingredients we need and nothing else. 
 
 ###Let's look at it all together###
 
@@ -167,7 +167,7 @@ $pie->printOutput();
 class Brownie extends Recipe {
 	public function Brownie() {
 		parent::Recipe(); //inherits the parent class's constructor 
-		$this->ingredients[] = "8 lbs of chocolate";
+		$this->ingredients[] = "chocolate";
 	}
 }
 
@@ -181,11 +181,11 @@ $brownie->printOutput();
 
 
 ###Scope###
-"But wait!" you exclaim. "If we're using the same constructor in `Recipe` and `Brownie`, how come we don't end up with chocolate in our `$pie`? This is where something called scope comes into play. Scope is best described as the things (such as variables or functions) available to you at a given point. Looking at the graph below, variables and functions are available for inheritance (think of your parents giving you their DNA) but you're unable to inherit "up" (you cannot affect your parents' DNA). 
+"But wait!" you exclaim. "If we're using the same constructor in `Recipe` and `Brownie` (lines 7 and 42), how come we don't end up with chocolate in our `$pie`? This is where something called scope comes into play. Scope is best described as the things (such as variables or functions) available to you at a given point. Looking at the graph below, variables and functions are available for inheritance (think of your parents giving you their DNA) but you're unable to inherit "up" (you cannot affect your parents' DNA). 
 
 <img src="/img/posts/scope.png" alt="Scope box model"/>
 
-Everything in our `Class` (all `Objects` and `Functions`) are available for use in all `Objects` that inherit (or extend) that class. Things within specific `Objects` are only available to the `Object` and the `Functions` within it. Variables used in a `Function` are only available to that `Function`. It's like an apartment: a landlord can have the master keys and be able to get into the common area and your apartment, but your apartment key doesn't work on anyone else's apartment.  
+Everything in our `Class` (all `Variables` and `Functions`) are available for use in all `Objects` that inherit (or extend) that class. Things within specific `Objects` are only available to the `Object` and the `Functions` within it. Variables used in a `Function` are only available to that `Function`. It's like an apartment: a landlord can have the master keys and be able to get into the common area and your apartment, but your apartment key doesn't work on anyone else's apartment.  
 
 ##Conclusion##
 Object Oriented Programming is an incredibly important thing to learn, but it's not always easy to understand all the different parts. People use all sorts of examples to try to explain it, but it didn't really click with me until someone sat down and explained it to me in plain English using an example that I was intimately familiar with. This is just one way that I've found helped me learn. Hopefully it was helpful for you! 
