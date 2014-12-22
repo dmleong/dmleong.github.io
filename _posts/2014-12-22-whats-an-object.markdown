@@ -14,8 +14,20 @@ excerpt-photo: /img/posts/cookies.jpg
 
 ###<a href="/img/posts/magnets.jpg">Objects.</a> How do they work? ###
 When I started programming, the term Object Oriented Programming (OOP) was being thrown around constantly, but the internet doesn't always take into consideration that *newbies don't know how to read technical documentation*. Technical documentation, even that which is aimed at new programmers, often forgets to take into consideration the basics that one is "supposed to know". One of these things, I found, was as simple as explaining what an object is. 
+
+For the longest time, I thought <a href="http://php.net/manual/en/language.types.array.php">arrays</a> and objects were the same thing. An array is an ordered map. An easy way to think about this is like a grocery list. 
+
+``` Array
+    (
+        [0] => sugar
+        [1] => flour
+        [2] => butter
+    )
+```
+
+If you wanted to reference a specific item in that array, you could just print `$array[0]` and get "sugar". 
  
-Even when you search on Google, it tells you that there's no way you can sum it up easily: 
+Objects are slightly more difficult to explain. Even when you search on Google, it tells you that there's no way you can sum it up easily: 
 
 <img src="/img/posts/ooo.png" alt="Thanks, Google"/>
 
@@ -118,7 +130,7 @@ Here we are extending our `Recipe` to create a new class of `Brownie`. Since all
 
 
 ###Function### 
-Looking through our `Recipe` we see things like `pubic function addIngredients()`. This is an example of a `Function`. I like to think of functions as verbs. They do things to the variables (in this case, ingredients). Our functions should always be small and reusable to avoid surprises. In this case, `addIngredients` makes a list of the ingredients we need and nothing else. 
+Looking through our `Recipe` we see things like ~~pubic~~ 'public function addIngredients()`. This is an example of a `Function`. I like to think of functions as verbs. They do things to the variables (in this case, ingredients). Our functions should always be small and reusable to avoid surprises. In this case, `addIngredients` makes a list of the ingredients we need and nothing else. 
 
 ###Let's look at it all together###
 
