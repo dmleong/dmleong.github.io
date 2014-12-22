@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+<img src="/img/profile.jpg" class="profile" alt="Danielle Leong, dinosaur" />
+
 I'm a San Francisco-based web developer with a passion for diversity in tech, cheese, motorcycles, dinosaurs, and any combination of the aforementioned. 
 
 I graduated from UC Irvine in 2009 with a degree in Sociology and Business Management. After working in marketing for several years, I taught myself to code and joined Twilio as the company's first female engineer. 
@@ -12,3 +14,4 @@ I'm passionate about increasing diversity and inclusion in tech, and I'm one of 
 
 In my spare spare time, I enjoy long rides on my motorcycle, following cute puppies on Instagram, and fiercely competing in Fitbit competitions. 
 
+<a href="/public">Check out my public appearances</a>
