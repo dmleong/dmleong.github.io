@@ -5,25 +5,23 @@ date:   2014-12-07 14:39:12
 author: Danielle Leong
 comments: True
 categories: blog
-excerpt: "You'd think that I would know what an object in Object Oriented Programming was." 
-excerpt-photo: /img/posts/magnets.jpg
+excerpt: "An attempt to explain Object Oriented Programming using cookies, pies, and brownies." 
+excerpt-photo: /img/posts/cookies.jpg
 ---
 
 ##tl;dr##
->Object Oriented Programming (OOP) is an incredibly important concept that is incredibly difficult to explain to a new person. This post will attempt to break down the concept of OOP into plain English.
+>Object Oriented Programming (OOP) is an incredibly important concept that is incredibly difficult to explain to a new person. This post will attempt to break down the concept of OOP into plain English using baking as an example. 
 
-###Objects. How do they work? ###
-<img src="/img/posts/magnets.jpg" alt="Magnets." />
-
+###<a href="/img/posts/magnets.jpg">Objects.</a> How do they work? ###
 When I started programming, the term Object Oriented Programming (OOP) was being thrown around constantly, but the plethora of knowledge out there on the internet doesn't always take into consideration that *newbies don't know how to read technical documentation*. Technical documentation, even that which is aimed at new programmers, often forgets to take into consideration the basics that one is "supposed to know". One of these things, I found, was as simple as explaining what an object is. 
  
 Even when you search on Google, it tells you that there's no way you can sum it up easily: 
 
-<img src="/img/posts/ooo.png" alt="Google even says more info needed"/>
+<img src="/img/posts/ooo.png" alt="Thanks, Google"/>
 
-The <a href="http://docs.oracle.com/javase/tutorial/java/concepts/object.html">Oracle article</a> is actually quite interesting, but I'll give an example that finally made everything click for me. 
+The <a href="http://docs.oracle.com/javase/tutorial/java/concepts/object.html">Oracle article</a> is actually does a decent job at explaining it, but I'll give an example that finally made everything click for me. 
 
-For this lesson, we're going to need to be familiar with the following terms: 
+For this lesson, we will cover the following terms: 
 
 * Class
 * Constructor
@@ -31,47 +29,43 @@ For this lesson, we're going to need to be familiar with the following terms:
 * Instance 
 * Function
 
-And because I like baking, I'll use the class `Recipe`. And because my main language is PHP, this example is going to be in PHP. I know nobody likes PHP, but it's an easy beginner language, so bear with me! 
+And because I like baking, I'll use the class `Recipe`.
 
 
 {% highlight php linenos %}
 <? php
 
 class Recipe {
-	public $flourCups;
-	public $sugarCups;
-	public $butterSticks;
-	public $goodsMade;
-	public $bakeTemp;
+	protected $ingredients;
+	protected $steps;
 
-	public function __construct() {
-		$this->bakeTemp = "350 degrees Fahrenheit";
+	public function Recipe() {
+		$this->ingredients = array();
+		$this->steps = array();
+	}
+
+	public function addIngredients($ingredient) {
+		$this->ingredients[] = $ingredient;
+	}
+
+	public function addStep($step) {
+		$this->steps = $step;
+	}
+
+	public function printOutput() {
+		print_r ($this->ingredients);
+		print_r ($this->steps);
 	}
 }
-
-class Cookie extends Recipe {
-	var $flourCups = 3;
-	var $sugarCups = 3;
-	var $butterSticks = 2;
-
-	function bake() {
-		$this->goodsMade = ($this->flourCups + $this->sugarCups + $this->butterSticks) * 3;
-		return $this->goodsMade . " cookies made";
-	}
-}
-
-$sugarCookie = new Cookie();
-$sugarCookie->bake();
-//Returns "24 cookies made"
 
 {% endhighlight %}
 
 
 ###Class###
-In this example, `Recipe` is an example of a `Class`. A `Class` is your source of truth or set of basic instructions for the thing you're trying to make. For every baked good recipe out there, we have your basic ingredients, called `variables`. Things like flour, sugar, and butter are going to be in just about every recipe out there. Since we know that these ingredients are always going to be in every recipe we use, we make them global variables in our `Recipe`. Global variables are available every time you use this class.
+In this example, `Recipe` is an example of a `Class`. A `Class` is your source of truth or set of basic instructions for the thing you're trying to make.  
 
 ###Constructor###
-Your `Constructor` (line 10 contains instructions on how you want to *build* your `Class`. In this case, we bake everything at 350 degrees F. 
+Your `Constructor` (line 10 contains instructions on how you want to *build* (or instantiate) your `Class`.  
 
 ###Object###
 The `Object` here is the `new Cookie()` on line 26. Here, we are using our original instructions in `Recipe` (take your flour, sugar, and butter) and specifying how many cups of each are needed in this specific `Object` of `$sugarCookie`. It an *instantiation* of your original `Recipe`, which means you're cloning your `Class` (Recipe) and modifying it to fit your `Object`'s needs (Cookie). 
@@ -144,3 +138,5 @@ Things with a global scope will be available to the overall `Class` and everythi
 
 ##Conclusion##
 Object Oriented Programming is an incredibly important thing to learn, but it's not always easy to understand all the different parts. People use all sorts of examples to try to explain it, but it didn't really click with me until someone sat down and explained it to me in plain English using an example that I was intimately familiar with. This is just one way that I've found helped me learn. Hopefully it was helpful for you! 
+
+<a href="http://www.seriouseats.com/recipes/2013/12/the-food-lab-best-chocolate-chip-cookie-recipe.html">And here's that cookie recipe</a>. 

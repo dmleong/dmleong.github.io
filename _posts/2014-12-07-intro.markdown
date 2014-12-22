@@ -13,7 +13,6 @@ excerpt-photo: /img/posts/hogwarts.jpg
 >I'm a front end web developer trying to move to full stack. Follow along with my journey here. 
 
 ###Part 1: I want to be a wizard###
-<img src="/img/posts/hogwarts.jpg" alt="Seriously, what do I need to do to get into Hogwarts?" />
 When you're a kid, you're told that college will have all the answers for you. That if you pick the right major, then you're set for life. You take SATs and ACTs and AP courses that all quantify how smart you are in relation to the other students in your class. You pick a college and you pick a major, thinking, "This is what I will do for the rest of my life!"
 
 No one ever tells you that this is rarely what happens. 
