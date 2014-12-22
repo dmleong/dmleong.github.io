@@ -130,7 +130,7 @@ Here we are extending our `Recipe` to create a new class of `Brownie`. Since all
 
 
 ###Function### 
-Looking through our `Recipe` we see things like ~~pubic~~ 'public function addIngredients()`. This is an example of a `Function`. I like to think of functions as verbs. They do things to the variables (in this case, ingredients). Our functions should always be small and reusable to avoid surprises. In this case, `addIngredients` makes a list of the ingredients we need and nothing else. 
+Looking through our `Recipe` we see things like `public function addIngredients()`. This is an example of a `Function`. I like to think of functions as verbs. They do things to the variables (in this case, ingredients). Our functions should always be small and reusable to avoid surprises. In this case, `addIngredients` makes a list of the ingredients we need and nothing else. 
 
 ###Let's look at it all together###
 
