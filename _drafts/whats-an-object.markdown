@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What's an object? A beginners guide to Object Oriented Programming (OOP)"
+title:  "What's an object? A beginner's guide to Object Oriented Programming"
 date:   2014-12-07 14:39:12
 author: Danielle Leong
 comments: True
@@ -19,7 +19,7 @@ Even when you search on Google, it tells you that there's no way you can sum it 
 
 <img src="/img/posts/ooo.png" alt="Thanks, Google"/>
 
-The <a href="http://docs.oracle.com/javase/tutorial/java/concepts/object.html">Oracle article</a> is actually does a decent job at explaining it, but I'll give an example that finally made everything click for me. 
+The <a href="http://docs.oracle.com/javase/tutorial/java/concepts/object.html">Oracle article</a> actually does a decent job at explaining it, but I'll give an example that finally made everything click for me. 
 
 For this lesson, we will cover the following terms: 
 
@@ -35,7 +35,6 @@ And because I like baking, I'll use the class `Recipe`.
 
 {% highlight php linenos %}
 <? php
-
 class Recipe {
 	protected $ingredients;
 	protected $steps;
@@ -66,7 +65,7 @@ class Recipe {
 In this example, `Recipe` is an example of a `Class`. A `Class` is your source of truth or set of basic instructions for the thing you're trying to make. It should be pretty vague and generic so that you can reuse it in other situations. At its most basic core concept, a recipe is a list of ingredients and a list of steps you follow with those ingredients. 
 
 ###Constructor###
-Your `Constructor` (line 7) contains instructions on how you want to *build* (or instantiate) your `Class`. In this case, you build your recipe by having a list of ingredients and a list of steps. 
+Your `Constructor` (line 6) contains instructions on how you want to *build* (or instantiate) your `Class`. In this case, you build your recipe by having a list of ingredients and a list of steps. 
 
 
 ###Object###
