@@ -120,7 +120,19 @@ html {
 		.menu-icon {
 			padding-top: 7px!important;
 		}
+
 	}
+
+	.site-header {
+		&.full {
+			&.dark {
+				a {
+					color: $grey-color-dark;
+				}
+			}
+		}
+	}
+
 }
 
 .col {
