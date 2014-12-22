@@ -10,10 +10,10 @@ excerpt-photo: /img/posts/cookies.jpg
 ---
 
 ##tl;dr##
->Object Oriented Programming (OOP) is an incredibly important concept that is incredibly difficult to explain to a person new to programming. This post will attempt to break down the concept of OOP into plain English using baking as an example. 
+>Object Oriented Programming (OOP) is an incredibly important concept that is difficult to explain to a person new to programming. This post will attempt to break down the concept of OOP into plain English using baking as an example. 
 
 ###<a href="/img/posts/magnets.jpg">Objects.</a> How do they work? ###
-When I started programming, the term Object Oriented Programming (OOP) was being thrown around constantly, but the plethora of knowledge out there on the internet doesn't always take into consideration that *newbies don't know how to read technical documentation*. Technical documentation, even that which is aimed at new programmers, often forgets to take into consideration the basics that one is "supposed to know". One of these things, I found, was as simple as explaining what an object is. 
+When I started programming, the term Object Oriented Programming (OOP) was being thrown around constantly, but the internet doesn't always take into consideration that *newbies don't know how to read technical documentation*. Technical documentation, even that which is aimed at new programmers, often forgets to take into consideration the basics that one is "supposed to know". One of these things, I found, was as simple as explaining what an object is. 
  
 Even when you search on Google, it tells you that there's no way you can sum it up easily: 
 
@@ -101,7 +101,6 @@ Remember how I said a `Class` should be as vague as possible? The reason is beca
 {% highlight php %}
 
 class Brownie extends Recipe {
-
 	public function Brownie() {
 		parent::Recipe();
 		$this->ingredients[] = "chocolate";
@@ -110,7 +109,7 @@ class Brownie extends Recipe {
 
 $brownie = new Brownie();
 $brownie->addIngredients(array("sugar", "flour", "butter", "eggs"));
-$brownie->addStep(array("Mix together", "Add frosting"));
+$brownie->addStep(array("Mix together", "Put in oven"));
 $brownie->printOutput();
 
 {% endhighlight %}
@@ -173,7 +172,7 @@ class Brownie extends Recipe {
 //Create a new instance of Brownie called $brownie
 $brownie = new Brownie();
 $brownie->addIngredients(array("sugar", "flour", "butter", "eggs"));
-$brownie->addStep(array("Mix together", "Add frosting"));
+$brownie->addStep(array("Mix together", "Put in oven"));
 $brownie->printOutput();
 
 {% endhighlight %}
@@ -189,4 +188,6 @@ Everything in our `Class` (all `Variables` and `Functions`) are available for us
 ##Conclusion##
 Object Oriented Programming is an incredibly important thing to learn, but it's not always easy to understand all the different parts. People use all sorts of examples to try to explain it, but it didn't really click with me until someone sat down and explained it to me in plain English using an example that I was intimately familiar with. This is just one way that I've found helped me learn. Hopefully it was helpful for you! 
 
-<a href="http://www.seriouseats.com/recipes/2013/12/the-food-lab-best-chocolate-chip-cookie-recipe.html">And here's my favorite cookie recipe</a>. 
+<a href="http://www.seriouseats.com/recipes/2013/12/the-food-lab-best-chocolate-chip-cookie-recipe.html">And here's my favorite cookie recipe</a>.
+ 
+<a href="http://www.ambitiouskitchen.com/2012/08/peanut-butter-chocolate-chip-cookies-with-sea-salt/">Photo credit</a>
