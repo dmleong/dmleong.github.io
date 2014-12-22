@@ -81,10 +81,10 @@ $sugarCookie->printOutput();
 
 {% endhighlight %}
 
-We want to make an actual item (`Object`) by cloning our original recipe (`Class`) and modifying it to fit our needs. Here, we create a new instance of `Recipe` and call it `$sugarCookie`. We add an array of ingredients, run our cookie magic, and get magic tasty goodies out of it.  
+We want to make an actual item (`Object`) by cloning our original recipe (`Class`). Here, we create a new instance of `Recipe` and call it `$sugarCookie`. We add an array of ingredients, run our cookie magic, and get magic tasty goodies out of it.  
 
 ###Instance###
-An `Instance` is a copy of a `Class`. `$sugarCookie` is an instance of `Recipe`. We can make as many `Instances` of `Recipe` as we want! 
+An `Instance` is an `Object` that is a copy of a `Class`. `$sugarCookie` is an instance of `Recipe`. We can make as many `Instances` of `Recipe` as we want! 
 
 {% highlight php %}
 $pie = new Recipe();
