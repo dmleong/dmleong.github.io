@@ -217,6 +217,14 @@ img {
 	padding: 0 3% 0 0;
 }
 
+@media screen and (max-width: 600px) {
+	.profile {
+		display: block;
+		width: 100%;
+		padding-left: 0;
+	}
+}
+
 .post-image {
 	width: 250px;
 	height: auto;
@@ -283,7 +291,7 @@ input[type="EMAIL"] {
 .js-video {
 	height: 0;
 	padding-top: 25px;
-	padding-bottom: 67.5%;
+	padding-bottom: 32.5%;
 	margin-bottom: 10px;
 	position: relative;
 	overflow: hidden;
@@ -298,6 +306,8 @@ input[type="EMAIL"] {
 	top: 0;
 	left: 0;
 	width: 100%;
+	max-width: 560px;
 	height: 100%;
+	max-height: 315px;
 	position: absolute;
 }
