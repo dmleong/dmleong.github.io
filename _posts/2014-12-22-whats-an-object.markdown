@@ -51,22 +51,34 @@ class Recipe {
 	protected $ingredients;
 	protected $steps;
 
-	public function Recipe() {
+	public function Recipe() { 
 		$this->ingredients = array();
 		$this->steps = array();
 	}
 
-	public function addIngredients($ingredient) {
-		$this->ingredients[] = $ingredient;
+	public function addIngredient($ingredient) {
+		$this->ingredients[] = $ingredient; 
 	}
 
 	public function addStep($step) {
-		$this->steps = $step;
+		$this->steps[] = $step; 
 	}
 
 	public function printOutput() {
-		print_r ($this->ingredients);
-		print_r ($this->steps);
+		echo "Ingredients:\n";
+
+		for($i = 0; $i < count($this->ingredients); $i++) {
+			echo $i . " " . $this->ingredients[$i] . "\n";
+		}
+
+		// Prints numbered steps
+		echo "Steps:\n";
+
+		for($i = 0; $i < count($this->steps); $i++) {
+			echo $i . " " . $this->steps[$i] . "\n";
+		}
+
+		echo "\n";
 	}
 }
 
@@ -85,22 +97,32 @@ Your `Constructor` (line 6) contains instructions on how you want to *build* (or
 Now we want to actually do something with our recipe. 
 {% highlight php %}
 
+//Create a new instance of Recipe called $sugarCookie
 $sugarCookie = new Recipe();
-$sugarCookie->addIngredients(array("sugar", "flour", "butter", "vanilla", "eggs"));
-$sugarCookie->addStep(array("Mix together", "Cut out shapes", "Put in oven"));
+$sugarCookie->addIngredient("sugar");
+$sugarCookie->addIngredient("flour");
+$sugarCookie->addIngredient("butter");
+$sugarCookie->addStep("Mix together");
+$sugarCookie->addStep("Cut out shapes");
+$sugarCookie->addStep("Put in oven");
 $sugarCookie->printOutput();
 
 {% endhighlight %}
 
-We want to make an actual item (`Object`) by cloning our original recipe (`Class`). Here, we create a new instance of `Recipe` and call it `$sugarCookie`. We add an array of ingredients, run our cookie magic, and get magic tasty goodies out of it.  
+We want to make an actual item (`Object`) by cloning our original recipe (`Class`). Here, we create a new instance of `Recipe` and call it `$sugarCookie`. We add our ingredients, run our cookie magic, and get magic tasty goodies out of it.  
 
 ###Instance###
 An `Instance` is an `Object` that is a copy of a `Class`. `$sugarCookie` is an instance of `Recipe`. We can make as many `Instances` of `Recipe` as we want! 
 
 {% highlight php %}
+//Create a new instance of Recipe called $pie
 $pie = new Recipe();
-$pie->addIngredients(array("crust", "filling", "more crust"));
-$pie->addStep(array("Roll out crust", "Fill with filling", "Roll out top crust", "Put in oven"));
+$pie->addIngredient("pie crust");
+$pie->addIngredient("filling");
+$pie->addStep("Roll out crust");
+$pie->addStep("Fill with filling");
+$pie->addStep("Roll out top crust");
+$pie->addStep("Put in oven");
 $pie->printOutput();
 
 {% endhighlight %}
@@ -120,8 +142,11 @@ class Brownie extends Recipe {
 }
 
 $brownie = new Brownie();
-$brownie->addIngredients(array("sugar", "flour", "butter", "eggs"));
-$brownie->addStep(array("Mix together", "Put in oven"));
+$brownie->addIngredient("sugar");
+$brownie->addIngredient("flour");
+$brownie->addIngredient("eggs");
+$brownie->addStep("Mix together");
+$brownie->addStep("Bake");
 $brownie->printOutput();
 
 {% endhighlight %}
@@ -146,46 +171,71 @@ class Recipe {
 		$this->steps = array();
 	}
 
-	public function addIngredients($ingredient) {
+	public function addIngredient($ingredient) {
 		$this->ingredients[] = $ingredient; //adds ingredients to an array
 	}
 
 	public function addStep($step) {
-		$this->steps = $step; //adds steps to an array
+		$this->steps[] = $step; //adds steps to an array
 	}
 
 	public function printOutput() {
-		print_r ($this->ingredients); //prints our output
-		print_r ($this->steps);
+		// Prints ingredients
+		echo "Ingredients:\n";
+
+		for($i = 0; $i < count($this->ingredients); $i++) {
+			echo $i . " " . $this->ingredients[$i] . "\n";
+		}
+
+		// Prints numbered steps
+		echo "Steps:\n";
+
+		for($i = 0; $i < count($this->steps); $i++) {
+			echo $i . " " . $this->steps[$i] . "\n";
+		}
+
+		echo "\n";
 	}
 }
 
 //Create a new instance of Recipe called $sugarCookie
 $sugarCookie = new Recipe();
-$sugarCookie->addIngredients(array("sugar", "flour", "butter", "vanilla", "eggs"));
-$sugarCookie->addStep(array("Mix together", "Cut out shapes", "Put in oven"));
+$sugarCookie->addIngredient("sugar");
+$sugarCookie->addIngredient("flour");
+$sugarCookie->addIngredient("butter");
+$sugarCookie->addStep("Mix together");
+$sugarCookie->addStep("Cut out shapes");
+$sugarCookie->addStep("Put in oven");
 $sugarCookie->printOutput();
 
 //Create a new instance of Recipe called $pie
 $pie = new Recipe();
-$pie->addIngredients(array("crust", "filling", "more crust"));
-$pie->addStep(array("Roll out crust", "Fill with filling", "Roll out top crust", "Put in oven"));
+$pie->addIngredient("pie crust");
+$pie->addIngredient("filling");
+$pie->addStep("Roll out crust");
+$pie->addStep("Fill with filling");
+$pie->addStep("Roll out top crust");
+$pie->addStep("Put in oven");
 $pie->printOutput();
 
 
 //Extend Recipe to create a new class of Brownie. Brownie inherits from Recipe
 class Brownie extends Recipe {
 	public function Brownie() {
-		parent::Recipe(); //inherits the parent class's constructor 
+		parent::Recipe(); //inherits the parent class's constructor
 		$this->ingredients[] = "chocolate";
 	}
 }
 
 //Create a new instance of Brownie called $brownie
 $brownie = new Brownie();
-$brownie->addIngredients(array("sugar", "flour", "butter", "eggs"));
-$brownie->addStep(array("Mix together", "Put in oven"));
+$brownie->addIngredient("sugar");
+$brownie->addIngredient("flour");
+$brownie->addIngredient("eggs");
+$brownie->addStep("Mix together");
+$brownie->addStep("Bake");
 $brownie->printOutput();
+
 
 {% endhighlight %}
 
