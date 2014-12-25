@@ -40,7 +40,7 @@ For this lesson, we will cover the following terms:
 * Object
 * Instance 
 * Inheritance
-* Function
+* Function (or Method in other languages like C++ or Java)
 
 And because I like baking, I'll use the class `Recipe`.
 
