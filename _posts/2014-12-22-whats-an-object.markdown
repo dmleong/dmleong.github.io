@@ -5,6 +5,7 @@ date:   2014-12-22
 author: Danielle Leong
 comments: True
 categories: blog
+tags: beginner, "object oriented programming", oop
 excerpt: "An attempt to explain Object Oriented Programming using cookies, pies, and brownies." 
 excerpt-photo: /img/posts/cookies.jpg
 ---
