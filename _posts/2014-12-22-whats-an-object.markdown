@@ -11,7 +11,7 @@ excerpt-photo: /img/posts/cookies.jpg
 ---
 
 ##tl;dr##
->Object Oriented Programming (OOP) is an incredibly important concept that is difficult to explain to a person new to programming. This post will attempt to break down the concept of OOP into plain English using baking as an example. 
+Object Oriented Programming (OOP) is an incredibly important concept that is difficult to explain to a person new to programming. This post will attempt to break down the concept of OOP into plain English using baking as an example. 
 
 ###<a href="/img/posts/magnets.jpg">Objects.</a> How do they work? ###
 When I started programming, the term Object Oriented Programming (OOP) was being thrown around constantly, but the internet doesn't always take into consideration that *newbies don't know how to read technical documentation*. Technical documentation, even that which is aimed at new programmers, often forgets to take into consideration the basics that one is "supposed to know". One of these things, I found, was as simple as explaining what an object is. 
