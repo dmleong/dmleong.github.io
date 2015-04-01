@@ -5,6 +5,13 @@ permalink: /public/
 ---
 
 ###Diversity in tech##
+
+<blockquote class="twitter-tweet" lang="en"><p>So proud of <a href="https://twitter.com/twilio">@twilio</a> for the mention in <a href="https://twitter.com/TechCrunch">@techcrunch</a>&#39;s article - Prioritizing Diversity In 2015 <a href="http://t.co/Cq6xU78DOJ">http://t.co/Cq6xU78DOJ</a> <a href="https://twitter.com/tsunamino">@tsunamino</a></p>&mdash; Claire Shaw (@cshawshaw) <a href="https://twitter.com/cshawshaw/status/572494196667375618">March 2, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" lang="en"><p>“And thats when I decided I want to be an engineer.” - hearing from <a href="https://twitter.com/tsunamino">@tsunamino</a>, first female eng at <a href="https://twitter.com/twilio">@Twilio</a>. <a href="http://t.co/16NyFAs1Pk">pic.twitter.com/16NyFAs1Pk</a></p>&mdash; GDI San Francisco (@gdisf) <a href="https://twitter.com/gdisf/status/570425711787274240">February 25, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 <blockquote class="twitter-tweet" lang="en"><p>.<a href="https://twitter.com/twilio">@Twilio</a> engineers Dom (<a href="https://twitter.com/Itshella_dom">@itshella_dom</a> on outreach) &amp;Danielle (<a href="https://twitter.com/tsunamino">@tsunamino</a> on retention) are D&amp;D4diversity <a href="https://twitter.com/hashtag/twilioggd14?src=hash">#twilioggd14</a> <a href="http://t.co/LuGNZsAhi5">pic.twitter.com/LuGNZsAhi5</a></p>&mdash; BayAreaGGD (@BayAreaGGD) <a href="https://twitter.com/BayAreaGGD/status/542527858342502401">December 10, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -23,6 +30,8 @@ I was on Bay Area Focus speaking about <a href="http://missionbit.com/">Mission 
 <a href="https://speakerdeck.com/dmleong/women-in-tech-how-i-got-here-and-how-to-survive-being-in-a-male-dominated-workforce">Women in Tech: How I got here and how to survive being in a male-dominated workforce</a> is a talk I did at Mercy High School Burlingame to a group of young women about how they can pursue a career in tech.
 
 ###Ignite talks##
+<div class="js-video [widescreen]"><iframe width="560" height="315" src="//www.youtube.com/embed/9D5URxw4IWw" frameborder="0" allowfullscreen></iframe></div>
+
 <div class="js-video [widescreen]"><iframe width="560" height="315" src="//www.youtube.com/embed/cplwtyjhgCU" frameborder="0" allowfullscreen></iframe></div>
 
 <div class="js-video [widescreen]"><iframe width="560" height="315" src="//www.youtube.com/embed/kZXClhSkaI8" frameborder="0" allowfullscreen></iframe></div>
