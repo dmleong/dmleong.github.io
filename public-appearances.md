@@ -6,6 +6,9 @@ permalink: /public/
 
 ###Diversity in tech##
 
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">A very happy birthday to Skittles, <a href="https://twitter.com/twilio">@twilio</a>&#39;s Diversity &amp; Inclusion team! Can&#39;t believe it&#39;s been one whole year! <a href="http://t.co/bdWHGXbQJY">pic.twitter.com/bdWHGXbQJY</a></p>&mdash; Danielle Leong (@tsunamino) <a href="https://twitter.com/tsunamino/status/605474861427728384">June 1, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 <blockquote class="twitter-tweet" lang="en"><p>So proud of <a href="https://twitter.com/twilio">@twilio</a> for the mention in <a href="https://twitter.com/TechCrunch">@techcrunch</a>&#39;s article - Prioritizing Diversity In 2015 <a href="http://t.co/Cq6xU78DOJ">http://t.co/Cq6xU78DOJ</a> <a href="https://twitter.com/tsunamino">@tsunamino</a></p>&mdash; Claire Shaw (@cshawshaw) <a href="https://twitter.com/cshawshaw/status/572494196667375618">March 2, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
