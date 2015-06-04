@@ -24,6 +24,16 @@ Layering svgs on top of one another presents problems when you try to link them,
 
 {% highlight php linenos %}
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 228 228" enable-background="new 0 0 228 228">
+	<g transform="scale(.6) translate(165, 155)">
+		<path stroke="#fff" stroke-miterlimit="10" d="M49 37.3s11.6-1.5 11.6-12.8c0-7.2-5.9-13.1-13.3-12.8-3-6.1-9.1-10.3-16.3-10.3-9.6 0-17.4 7.5-17.9 16.9-6-1.3-11.6 3.3-11.6 9.4 0 8 6.9 9.4 9.4 9.6" fill="none"/>
+		<g fill="#fff">
+			<path d="M30.8 18.2c-6.3 0-11.4 5.1-11.4 11.4S24.5 41 30.8 41c6.3 0 11.4-5.1 11.4-11.4s-5.1-11.4-11.4-11.4zm0 19.9c-4.7 0-8.4-3.8-8.4-8.4 0-4.7 3.8-8.4 8.4-8.4 4.7 0 8.4 3.8 8.4 8.4 0 4.6-3.8 8.4-8.4 8.4z"/>
+			<circle cx="33.6" cy="26.8" r="2.4"/>
+			<circle cx="33.6" cy="32.5" r="2.4"/>
+			<circle cx="27.9" cy="32.5" r="2.4"/>
+			<circle cx="27.9" cy="26.8" r="2.4"/>
+		</g>
+	</g>
 	<g transform="scale(.4) translate(180,120)">
 		<a xlink:href="#link1">
 			<path fill="#ff9" d="M114 1C51.7 1 1 51.7 1 114s50.7 113 113 113 113-50.7 113-113S176.3 1 114 1zm0 176c-34.7 0-63-28.3-63-63s28.3-63 63-63 63 28.3 63 63-28.3 63-63 63z"/>
