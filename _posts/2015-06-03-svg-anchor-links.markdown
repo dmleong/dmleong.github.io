@@ -86,6 +86,6 @@ $(document).ready(function() {
 });
 {% endhighlight %}
 
-This way we're able to target all of the anchor links on the page, if they're `xlink:href` style or just normal anchor links. `.hash()` doesn't work with `xlink:href` so we use `$(this).attr('xlink:href')` to grab the anchor link. Then we scroll to the anchor link's position based on the coordinates of the element we're linking to.
+Using `*|` means  we're able to target all of the anchor links on the page, whether they're `xlink:href` style or just normal anchor links. `.hash()` doesn't work with `xlink:href` so we use `$(this).attr('xlink:href')` to grab the anchor link. Then we scroll to the anchor link's position based on the coordinates of the element we're linking to.
 
 Hope this helps! Happy anchor linking! 
