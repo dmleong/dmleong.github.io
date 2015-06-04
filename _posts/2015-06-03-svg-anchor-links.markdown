@@ -86,6 +86,6 @@ $(document).ready(function() {
 });
 {% endhighlight %}
 
-Using `*|` means  we're able to target all of the anchor links on the page, whether they're `xlink:href` style or just normal anchor links. `.hash()` doesn't work with `xlink:href` so we use `$(this).attr('xlink:href')` to grab the anchor link. Then we scroll to the anchor link's position based on the coordinates of the element we're linking to.
+Breaking it down, we want to select all the different types of `href`s on the page. By using the <a href="http://www.w3schools.com/jquery/jquery_ref_selectors.asp">jQuery selector</a> `*`, we say we want to select all the different types of `href`, regardless of if they're `xlink:href` or regular links. `.hash()` doesn't work with `xlink:href` so we use `$(this).attr('xlink:href')` to grab the anchor link. Then we scroll to the anchor link's position based on the coordinates of the element we're linking to.
 
 Hope this helps! Happy anchor linking! 
