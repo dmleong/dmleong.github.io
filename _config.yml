@@ -2,15 +2,14 @@
 title: Danielle Leong | Web Developer
 email: danielle@danielleleong.com
 description: > # this means to ignore newlines until "baseurl:"
-  SF-based web developer. Passionate about diversity in tech, cheese, motorcycles, dinosaurs, and any combination of the above.
+  Oakland-based web developer. Passionate about diversity in tech, cheese, motorcycles, dinosaurs, and any combination of the above.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://danielleleong.com" # the base hostname & protocol for your site
 twitter_username: tsunamino
 github_username:  dmleong
 linkedin:  "http://www.linkedin.com/in/danielleleong/"
 disqusid: danielleleong
-paginate: 10
-paginate_path: "blog/page:num/"
 
 # Build settings
 markdown: kramdown
+
