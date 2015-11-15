@@ -139,6 +139,10 @@ html {
 		}
 	}
 
+	.page-content {
+		padding-top: 10px;
+	}
+
 }
 
 .col {
@@ -197,9 +201,13 @@ html {
 	background-repeat: no-repeat;
 }
 
+.post-title {
+	line-height: 1.6;
+}
+
 @media screen and (max-width: 600px) {
 	.post-hero {
-		margin-top: -56px;
+		margin-top: -70px;
 		margin-bottom: -50px;
 	}
 
@@ -239,10 +247,19 @@ img {
 	border: 1px solid $dark-green;
 }
 
+h2 {
+	line-height: 1.6;
+	margin-top: 50px;
+}
+
 @media screen and (max-width: 600px) {
 	.post-image {
 		display: block;
 		width: 100%;
+	}
+
+	h2 {
+		margin-top: 35px
 	}
 }
 
@@ -322,11 +339,3 @@ input[type="EMAIL"] {
 	margin-top: 50px;
 }
 
-h2 {
-	line-height: 1.6;
-	margin-top: 50px;
-}
-
-.post-title {
-	line-height: 1.6;
-}
