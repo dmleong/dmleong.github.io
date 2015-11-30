@@ -4,6 +4,9 @@ title: Public Appearances
 permalink: /public/
 ---
 
+###Book appearances###
+I speak out about what it's like to change careers and join software development in <a href="http://www.amazon.com/Quit-Law-Code-Transition-Development-ebook/dp/B00Y6QVUXU/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=wilha-20&linkId=1de67bfb785afecca7216ddbca71ebc6" target="__blank">Quit Law and Code: A Guide to Transition from Law to App Development</a>.
+
 ###Diversity in tech##
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">A very happy birthday to Skittles, <a href="https://twitter.com/twilio">@twilio</a>&#39;s Diversity &amp; Inclusion team! Can&#39;t believe it&#39;s been one whole year! <a href="http://t.co/bdWHGXbQJY">pic.twitter.com/bdWHGXbQJY</a></p>&mdash; Danielle Leong (@tsunamino) <a href="https://twitter.com/tsunamino/status/605474861427728384">June 1, 2015</a></blockquote>
@@ -19,7 +22,7 @@ permalink: /public/
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <div class="js-video [widescreen]"><iframe width="560" height="315" src="//www.youtube.com/embed/4uG0PaPn7UI" frameborder="0" allowfullscreen></iframe></div>
-I was on Bay Area Focus speaking about <a href="http://missionbit.com/">Mission Bit</a> and the importance of volunteering in the tech community. 
+I was on Bay Area Focus speaking about <a href="http://missionbit.com/">Mission Bit</a> and the importance of volunteering in the tech community.
 
 <blockquote class="twitter-tweet" lang="en"><p>Talking about diversity today at <a href="https://twitter.com/hashtag/bclx?src=hash">#bclx</a> with <a href="https://twitter.com/Itshella_dom">@Itshella_dom</a>! Come join us! <a href="http://t.co/PYblye9DoB">pic.twitter.com/PYblye9DoB</a></p>&mdash; Danielle Leong (@tsunamino) <a href="https://twitter.com/tsunamino/status/516147925882519554">September 28, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -46,4 +49,4 @@ I was on Bay Area Focus speaking about <a href="http://missionbit.com/">Mission 
 <a href="https://speakerdeck.com/dmleong/design-101-for-developers-5-ways-to-make-your-site-less-ugly#">Design 101 for Developers: 5 Ways to Make Your Site Less Ugly</a> is a talk I did at Twilio on 5 simple design patterns to implement on websites to make them less terrible.
 
 <div class="js-video [widescreen]"><iframe width="560" height="315" src="//www.youtube.com/embed/lRYbWveXKBw" frameborder="0" allowfullscreen></iframe></div>
-<a href="https://speakerdeck.com/dmleong/the-curious-incident-of-the-developer-on-the-design-team">The Curious Case of the Developer on the Design Team</a> I spoke with my teammate Nina Mehta about the importance of designers and developers working closely together. 
+<a href="https://speakerdeck.com/dmleong/the-curious-incident-of-the-developer-on-the-design-team">The Curious Case of the Developer on the Design Team</a> I spoke with my teammate Nina Mehta about the importance of designers and developers working closely together.
