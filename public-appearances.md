@@ -4,6 +4,11 @@ title: Public Appearances
 permalink: /public/
 ---
 
+###Tech talks###
+Demoing Netflix Triggers - a Waze for Netflix to help people with PTSD watch their shows in peace.
+<div class="js-video [widescreen]"><iframe width="560" height="315" src="//www.youtube.com/embed/yBiXC94qiNM" frameborder="0" allowfullscreen></iframe></div>
+
+
 ###Book appearances###
 I speak out about what it's like to change careers and join software development in <a href="http://www.amazon.com/Quit-Law-Code-Transition-Development-ebook/dp/B00Y6QVUXU/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=wilha-20&linkId=1de67bfb785afecca7216ddbca71ebc6" target="__blank">Quit Law and Code: A Guide to Transition from Law to App Development</a>.
 

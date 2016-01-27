@@ -35,3 +35,6 @@ Here’s a list of lessons learned moving from Flask/Pylot to Django:
 - Form validation, csrf tokens, and cleaned data <3 but remember it’s request.POST[‘field_name’]. Also being able to make a form from a model is basically the most amazing thing ever, but adding session data as placeholders just makes life unnecessarily complex
 
 - Creating a database through models is pure magic, but how do I print an expanded database object? OH MY GOD WHY DIDN'T ANYONE TELL ME ABOUT THE ADMIN DASHBOARD
+
+It’s important to add __str__() methods to your models, not only for your own convenience when dealing with the interactive prompt, but also because objects’ representations are used throughout Django’s automatically-generated admin.
+
