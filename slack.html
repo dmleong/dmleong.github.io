@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Slack Lightbox</title>
+    <meta charset="utf-8"/>
+    <script src="assets/js/slack.js"></script>
+    <script src="stylesheet" href="{{ "/js/slack.js" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/slack.css" | prepend: site.baseurl }}">
+</head>
+<body>
+    <div id="lightBoxBg" class="flex-container"></div>
+    <div id="lightBoxContainer" class="flex-container">
+        <div id="lightBox">
+            <a id="previous" class="previous arrow-left"></a>
+            <a id="next" class="next arrow-right"></a>
+            <div id="caption"></div>
+        </div>
+    </div>
+    <div id="formContainer" class="flex-container">
+        <form id="getAPIKey" method="POST">
+                <label for="apiKey">Your Flickr API Key</label>
+                <input type="text" name="apiKey" />
+                <button type="submit">Submit</button>
+                <p id="error">API Key does not exist</p>
+        </form>
+    </div>
+    <div id="container"></div>
+</body>
+</html>

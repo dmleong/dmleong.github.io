@@ -1,0 +1,148 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.thumb {
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+.col-md-3 {
+  width: 33%;
+  height: auto;
+  margin-top: 10px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  padding: 15px 15px 0 15px;
+}
+
+#lightBoxBg{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+    display: none;
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+#lightBox{
+    width: 600px;
+    height: 300px;
+    border: 10px white solid;
+    display: none;
+    margin-top: 2%;
+    position: relative;
+    background-repeat: no-repeat;
+
+    a {
+        color: white;
+    }
+}
+
+#lightBoxContainer {
+    position: fixed;
+    width: 99%;
+    height: 100%;
+    display: none;
+    z-index: 2;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-left: 36px solid white;
+    display: inline-block;
+    top: 36%;
+    right: 9%;
+    cursor: pointer;
+    position: fixed;
+}
+
+.arrow-left {
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-right: 36px solid white;
+    display: inline-block;
+    top: 36%;
+    left: 9%;
+    cursor: pointer;
+    position: fixed;
+}
+
+#caption {
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 1px #000;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+label {
+    display: block;
+    font-size: 36px;
+    line-height: 1.8;
+}
+
+input[type="text"] {
+    font-size: 36px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 23px;
+    width: 300px;
+    background: white;
+    height: 40px;
+}
+
+#getAPIKey {
+    margin: auto;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+     -webkit-align-self: flex-start;
+    align-self: flex-start;
+    text-align: center;
+}
+
+#formContainer {
+    display: flex;
+    align-items: center;
+    min-height: 30em;
+    justify-content: center;
+}
+
+#error {
+    opacity: 0;
+}
