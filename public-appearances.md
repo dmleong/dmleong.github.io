@@ -4,7 +4,7 @@ title: Public Appearances
 permalink: /public/
 ---
 
-###Feerless in the press###
+## Feerless in the press ##
 San Francisco Chronicle - <a href="http://www.sfchronicle.com/business/article/Trigger-warning-New-app-warns-Netflix-viewers-of-6801448.php">Trigger warning: New app warns Netflix viewers of graphic content</a>
 
 MedGadget - <a href="http://www.medgadget.com/2016/02/feerless-helps-ptsd-and-phobia-sufferers-avoid-triggering-moments-while-watching-netflix.html">Feerless Helps PTSD and Phobia Sufferers Avoid Triggering Moments While Watching Netflix</a>
@@ -13,15 +13,15 @@ KOMO News radio spot - <a href="http://komonews.com/news/local/new-app-warns-net
 
 The Mighty mental health blog - <a href="http://themighty.com/2016/02/new-app-will-make-netflix-binge-watching-safer-for-people-with-ptsd1/">New App Will Make Netflix Binge-Watching Safer for People With PTSD</a>
 
-###Tech talks###
+### Tech talks ###
 Demoing Netflix Triggers - a Waze for Netflix to help people with PTSD watch their shows in peace.
 <div class="js-video [widescreen]"><iframe width="560" height="315" src="//www.youtube.com/embed/yBiXC94qiNM" frameborder="0" allowfullscreen></iframe></div>
 
 
-###Book appearances###
+## Book appearances ##
 I speak out about what it's like to change careers and join software development in <a href="http://www.amazon.com/Quit-Law-Code-Transition-Development-ebook/dp/B00Y6QVUXU/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=wilha-20&linkId=1de67bfb785afecca7216ddbca71ebc6" target="__blank">Quit Law and Code: A Guide to Transition from Law to App Development</a>.
 
-###Diversity in tech##
+## Diversity in tech ##
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">A very happy birthday to Skittles, <a href="https://twitter.com/twilio">@twilio</a>&#39;s Diversity &amp; Inclusion team! Can&#39;t believe it&#39;s been one whole year! <a href="http://t.co/bdWHGXbQJY">pic.twitter.com/bdWHGXbQJY</a></p>&mdash; Danielle Leong (@tsunamino) <a href="https://twitter.com/tsunamino/status/605474861427728384">June 1, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
