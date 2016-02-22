@@ -4,6 +4,15 @@ title: Public Appearances
 permalink: /public/
 ---
 
+###Feerless in the press###
+San Francisco Chronicle - <a href="http://www.sfchronicle.com/business/article/Trigger-warning-New-app-warns-Netflix-viewers-of-6801448.php">Trigger warning: New app warns Netflix viewers of graphic content</a>
+
+MedGadget - <a href="http://www.medgadget.com/2016/02/feerless-helps-ptsd-and-phobia-sufferers-avoid-triggering-moments-while-watching-netflix.html">Feerless Helps PTSD and Phobia Sufferers Avoid Triggering Moments While Watching Netflix</a>
+
+KOMO News radio spot - <a href="http://komonews.com/news/local/new-app-warns-netflix-viewers-with-ptsd-about-content-that-may-trigger-panic-attacks">New app warns Netflix viewers with PTSD about content that may trigger panic attacks</a>
+
+The Mighty mental health blog - <a href="http://themighty.com/2016/02/new-app-will-make-netflix-binge-watching-safer-for-people-with-ptsd1/">New App Will Make Netflix Binge-Watching Safer for People With PTSD</a>
+
 ###Tech talks###
 Demoing Netflix Triggers - a Waze for Netflix to help people with PTSD watch their shows in peace.
 <div class="js-video [widescreen]"><iframe width="560" height="315" src="//www.youtube.com/embed/yBiXC94qiNM" frameborder="0" allowfullscreen></iframe></div>
