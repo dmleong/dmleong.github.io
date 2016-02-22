@@ -17,6 +17,13 @@ The Mighty mental health blog - <a href="http://themighty.com/2016/02/new-app-wi
 Demoing Netflix Triggers - a Waze for Netflix to help people with PTSD watch their shows in peace.
 <div class="js-video [widescreen]"><iframe width="560" height="315" src="//www.youtube.com/embed/yBiXC94qiNM" frameborder="0" allowfullscreen></iframe></div>
 
+<a href="https://www.twilio.com/blog/2014/03/call-my-nana-danielle-leong-sets-up-life-saving-sms-reminders-for-her-grandma-with-twilio-nt.html">Call My Nana</a> is an app I set up that calls my grandmother every day to remind her to take her medication. It's been running for nearly 3 years now!
+
+<a href="https://speakerdeck.com/dmleong/design-101-for-developers-5-ways-to-make-your-site-less-ugly#">Design 101 for Developers: 5 Ways to Make Your Site Less Ugly</a> is a talk I did at Twilio on 5 simple design patterns to implement on websites to make them less terrible.
+
+<div class="js-video [widescreen]"><iframe width="560" height="315" src="//www.youtube.com/embed/lRYbWveXKBw" frameborder="0" allowfullscreen></iframe></div>
+<a href="https://speakerdeck.com/dmleong/the-curious-incident-of-the-developer-on-the-design-team">The Curious Case of the Developer on the Design Team</a> I spoke with my teammate Nina Mehta about the importance of designers and developers working closely together.
+
 
 ## Book appearances ##
 I speak out about what it's like to change careers and join software development in <a href="http://www.amazon.com/Quit-Law-Code-Transition-Development-ebook/dp/B00Y6QVUXU/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=wilha-20&linkId=1de67bfb785afecca7216ddbca71ebc6" target="__blank">Quit Law and Code: A Guide to Transition from Law to App Development</a>.
@@ -49,18 +56,9 @@ I was on Bay Area Focus speaking about <a href="http://missionbit.com/">Mission 
 
 <a href="https://speakerdeck.com/dmleong/women-in-tech-how-i-got-here-and-how-to-survive-being-in-a-male-dominated-workforce">Women in Tech: How I got here and how to survive being in a male-dominated workforce</a> is a talk I did at Mercy High School Burlingame to a group of young women about how they can pursue a career in tech.
 
-###Ignite talks##
+## Ignite talks ##
 <div class="js-video [widescreen]"><iframe width="560" height="315" src="//www.youtube.com/embed/9D5URxw4IWw" frameborder="0" allowfullscreen></iframe></div>
 
 <div class="js-video [widescreen]"><iframe width="560" height="315" src="//www.youtube.com/embed/cplwtyjhgCU" frameborder="0" allowfullscreen></iframe></div>
 
 <div class="js-video [widescreen]"><iframe width="560" height="315" src="//www.youtube.com/embed/kZXClhSkaI8" frameborder="0" allowfullscreen></iframe></div>
-
-###Developer Focused###
-
-<a href="https://www.twilio.com/blog/2014/03/call-my-nana-danielle-leong-sets-up-life-saving-sms-reminders-for-her-grandma-with-twilio-nt.html">Call My Nana</a> is an app I set up that calls my grandmother every day to remind her to take her medication. It's been running for nearly 3 years now!
-
-<a href="https://speakerdeck.com/dmleong/design-101-for-developers-5-ways-to-make-your-site-less-ugly#">Design 101 for Developers: 5 Ways to Make Your Site Less Ugly</a> is a talk I did at Twilio on 5 simple design patterns to implement on websites to make them less terrible.
-
-<div class="js-video [widescreen]"><iframe width="560" height="315" src="//www.youtube.com/embed/lRYbWveXKBw" frameborder="0" allowfullscreen></iframe></div>
-<a href="https://speakerdeck.com/dmleong/the-curious-incident-of-the-developer-on-the-design-team">The Curious Case of the Developer on the Design Team</a> I spoke with my teammate Nina Mehta about the importance of designers and developers working closely together.
