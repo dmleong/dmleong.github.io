@@ -30,7 +30,7 @@ But lest this turn into a #NotAllMen post, hear me out: consent benefits everyon
 
 ## What is consensual software?
 
-It means getting _explicit consent from users to interact with them or their data_.
+Consensual software means getting _explicit consent from users to interact with them or their data_.
 
 - Don't assume a user wants to receive a notification. Don't assume it's okay to share their data. Ask first.
 - Respect their wishes if they don't want you to do something.
