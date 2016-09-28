@@ -26,7 +26,7 @@ But, you might say, asking for permission kills the mood and lowers our metrics.
 
 Asking for forgiveness is only permissible if it comes from a place of power. Since software is largely written by straight white cis able-bodied affluent men who benefit from having a lot of privilege, it's no surprise that software tends to assume consent. Many straight white men have never been in a position where they've lacked the benefit of the doubt. Thus, the software that comes out of Silicon Valley tends to assume consent by default because the people writing the code have never thought to, or felt they needed to question if something is okay or not.
 
-But we can change the industry's way of thinking and assuming consent. Let's start by hiring more people of diverse backgrounds who don't benefit from straight cis white male privilege. Then let's build consensual software.
+But lest this turn into a #NotAllMen post, hear me out: consent benefits everyone in society, even the straight white males! When everyone gives enthusiastic and informed consent, we have more engaged users, higher ROI, and better user experiences.
 
 ## What is consensual software?
 
