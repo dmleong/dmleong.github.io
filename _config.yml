@@ -1,8 +1,8 @@
 # Site settings
-title: Danielle Leong | Software Engineer
+title: Danielle Leong | Privacy Engineer
 email: danielle@danielleleong.com
 description: > # this means to ignore newlines until "baseurl:"
-  Oakland-based software engineer. Passionate about diversity in tech, cheese, motorcycles, dinosaurs, and any combination of the above.
+  Oakland-based software engineer with a passion for building safer, consensual software.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://danielleleong.com" # the base hostname & protocol for your site
 twitter_username: tsunamino
@@ -12,4 +12,3 @@ disqusid: danielleleong
 
 # Build settings
 markdown: kramdown
-
