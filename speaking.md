@@ -1,13 +1,16 @@
 ---
 layout: page
-title: Public Appearances
+title: Public Speaking
 permalink: /public/
 ---
+# Contact me
+Need speakers for your conference? I check off several diversity boxes, and I also happen to know what I'm talking about! Best way to reach out is to <a href="https://twitter.com/tsunamino">tweet at me</a> with your CFP.
 
 ### Online safety ###
 O'Reilly Security Conference - <a href="https://conferences.oreilly.com/security/sec-ny/public/schedule/detail/62289">Consensual software: Prioritizing user trust and safety</a>
 
 Making Online Collaboration Safer at GitHub
+
 <div class="js-video [widescreen]"><iframe width="560" height="315" src="http://www.ustream.tv/embed/recorded/91347818?html5ui" frameborder="0" allowfullscreen></iframe></div>
 
 InfoQ - <a href="https://www.infoq.com/articles/consensual-software">Consensual Software: How to prioritize user safety</a>
