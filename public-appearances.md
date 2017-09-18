@@ -5,6 +5,8 @@ permalink: /public/
 ---
 
 ### Online safety ###
+O'Reilly Security Conference - <a href="https://conferences.oreilly.com/security/sec-ny/public/schedule/detail/62289">Consensual software: Prioritizing user trust and safety</a>
+
 Making Online Collaboration Safer at GitHub
 <div class="js-video [widescreen]"><iframe width="560" height="315" src="http://www.ustream.tv/embed/recorded/91347818?html5ui" frameborder="0" allowfullscreen></iframe></div>
 
