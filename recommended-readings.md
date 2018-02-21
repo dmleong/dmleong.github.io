@@ -70,6 +70,8 @@ Examined Through Hate Speech](http://comp.social.gatech.edu/papers/cscw18-chand-
   * Discussing why "players should watch their behavior" isn't enough. Companies must provide the resources for developers to build moderation tools in order to foster healthy communities
 * [Unpacking the invisible backpack](https://nationalseedproject.org/white-privilege-unpacking-the-invisible-knapsack)
   * Great primer on understanding privilege because it's often difficult to see what others don't have if you take what you got for granted
+* [The Polyannish Assumption](https://stratechery.com/2017/the-pollyannish-assumption/)
+  * Assuming that everything is mostly good but for some bad apples allow harassment to continue. A more realistic approach is believe humanity is capable of both good and bad. 
   
 ## Lessons learned 
 * [Anonymity and Abuse Reports](https://blog.cloudflare.com/anonymity-and-abuse-reports/)
