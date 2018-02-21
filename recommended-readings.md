@@ -28,6 +28,8 @@ Also includes some resources to protect yourself if you find yourself on the rec
 * [You Can’t Stay Here: The Efficacy of Reddit’s 2015 Ban
 Examined Through Hate Speech](http://comp.social.gatech.edu/papers/cscw18-chand-hate.pdf) | Shorter version [here](https://gizmodo.com/study-finds-banning-reddits-bigoted-jerkwards-worked-1803766754/amp)
   * Study on the efficacy of banning destructive behavior -- We find that the ban worked for Reddit. More accounts than expected discontinued using the site; those that stayed drastically decreased their hate speech usage—by at least 80%. Though many subreddits saw an influx of `r/fatpeoplehate` and `r/CoonTown` “migrants,” those subreddits saw no significant changes in hate speech usage. In other words, other subreddits did not inherit the problem.
+* [Open Source Survey](http://opensourcesurvey.org/2017/)
+  * Open source survey on harassment, documentation, and licensing and how it affects open source contribution
   
 ## Books 
 * [Autobiography of a Recovering Skinhead](https://www.amazon.com/dp/B0043VDC52/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
