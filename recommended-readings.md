@@ -10,6 +10,7 @@ This list is intended to be a set of resources to help one understand the sociol
 
 Also includes some resources to protect yourself if you find yourself on the receiving end of harassment.
 
+
 ## Studies 
 * [Anyone can be a troll](https://files.clr3.com/papers/2017_anyone.pdf) - Shorter version [here](https://theconversation.com/our-experiments-taught-us-why-people-troll-72798)
   * Study done on how mood and environment can turn anyone into a troll
@@ -108,3 +109,5 @@ Examined Through Hate Speech](http://comp.social.gatech.edu/papers/cscw18-chand-
   * Excellent example of how other sites handle community guidelines
 * [Pinterest's content moderation guide](https://policy.pinterest.com/en/community-guidelines)
   * Visual representation of what content is and is not allowed on Pinterest
+* [LinkedIn's Professional Community Policies](https://www.linkedin.com/help/linkedin/answer/89880)
+  * Good definition of how to keep it professional 
