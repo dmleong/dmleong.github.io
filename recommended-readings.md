@@ -74,6 +74,8 @@ Examined Through Hate Speech](http://comp.social.gatech.edu/papers/cscw18-chand-
   * Great primer on understanding privilege because it's often difficult to see what others don't have if you take what you got for granted
 * [The Polyannish Assumption](https://stratechery.com/2017/the-pollyannish-assumption/)
   * Assuming that everything is mostly good but for some bad apples allow harassment to continue. A more realistic approach is believe humanity is capable of both good and bad. 
+* [This is How to Build a Troll-Free Online Community](https://www.fastcompany.com/40543021/this-is-how-to-build-a-troll-free-online-community)
+  * Good example of setting up community guidelines and enforcing them
   
 ## Lessons learned 
 * [Anonymity and Abuse Reports](https://blog.cloudflare.com/anonymity-and-abuse-reports/)
