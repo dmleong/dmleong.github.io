@@ -31,6 +31,9 @@ Examined Through Hate Speech](http://comp.social.gatech.edu/papers/cscw18-chand-
   * Study on the efficacy of banning destructive behavior -- We find that the ban worked for Reddit. More accounts than expected discontinued using the site; those that stayed drastically decreased their hate speech usage—by at least 80%. Though many subreddits saw an influx of `r/fatpeoplehate` and `r/CoonTown` “migrants,” those subreddits saw no significant changes in hate speech usage. In other words, other subreddits did not inherit the problem.
 * [Open Source Survey](http://opensourcesurvey.org/2017/)
   * Open source survey on harassment, documentation, and licensing and how it affects open source contribution
+* [Community Interaction and Conflict on the Web](https://arxiv.org/pdf/1803.03697.pdf)
+  * Less than 1% of internet communities start 74% of conflicts [which then lead to] echo chambers... and cause long-term adverse affects and reduce activity [on online platforms]. This study also covers a predictive model for online conflict 
+
   
 ## Books 
 * [Autobiography of a Recovering Skinhead](https://www.amazon.com/dp/B0043VDC52/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
