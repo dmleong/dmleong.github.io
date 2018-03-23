@@ -10,6 +10,7 @@ This list is intended to be a set of resources to help one understand the sociol
 
 Also includes some resources to protect yourself if you find yourself on the receiving end of harassment.
 
+
 ## Studies 
 * [Anyone can be a troll](https://files.clr3.com/papers/2017_anyone.pdf) - Shorter version [here](https://theconversation.com/our-experiments-taught-us-why-people-troll-72798)
   * Study done on how mood and environment can turn anyone into a troll
@@ -28,6 +29,11 @@ Also includes some resources to protect yourself if you find yourself on the rec
 * [You Can’t Stay Here: The Efficacy of Reddit’s 2015 Ban
 Examined Through Hate Speech](http://comp.social.gatech.edu/papers/cscw18-chand-hate.pdf) | Shorter version [here](https://gizmodo.com/study-finds-banning-reddits-bigoted-jerkwards-worked-1803766754/amp)
   * Study on the efficacy of banning destructive behavior -- We find that the ban worked for Reddit. More accounts than expected discontinued using the site; those that stayed drastically decreased their hate speech usage—by at least 80%. Though many subreddits saw an influx of `r/fatpeoplehate` and `r/CoonTown` “migrants,” those subreddits saw no significant changes in hate speech usage. In other words, other subreddits did not inherit the problem.
+* [Open Source Survey](http://opensourcesurvey.org/2017/)
+  * Open source survey on harassment, documentation, and licensing and how it affects open source contribution
+* [Community Interaction and Conflict on the Web](https://arxiv.org/pdf/1803.03697.pdf)
+  * Less than 1% of internet communities start 74% of conflicts [which then lead to] echo chambers... and cause long-term adverse affects and reduce activity [on online platforms]. This study also covers a predictive model for online conflict 
+
   
 ## Books 
 * [Autobiography of a Recovering Skinhead](https://www.amazon.com/dp/B0043VDC52/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
@@ -72,6 +78,8 @@ Examined Through Hate Speech](http://comp.social.gatech.edu/papers/cscw18-chand-
   * Great primer on understanding privilege because it's often difficult to see what others don't have if you take what you got for granted
 * [The Polyannish Assumption](https://stratechery.com/2017/the-pollyannish-assumption/)
   * Assuming that everything is mostly good but for some bad apples allow harassment to continue. A more realistic approach is believe humanity is capable of both good and bad. 
+* [This is How to Build a Troll-Free Online Community](https://www.fastcompany.com/40543021/this-is-how-to-build-a-troll-free-online-community)
+  * Good example of setting up community guidelines and enforcing them
   
 ## Lessons learned 
 * [Anonymity and Abuse Reports](https://blog.cloudflare.com/anonymity-and-abuse-reports/)
@@ -104,3 +112,5 @@ Examined Through Hate Speech](http://comp.social.gatech.edu/papers/cscw18-chand-
   * Excellent example of how other sites handle community guidelines
 * [Pinterest's content moderation guide](https://policy.pinterest.com/en/community-guidelines)
   * Visual representation of what content is and is not allowed on Pinterest
+* [LinkedIn's Professional Community Policies](https://www.linkedin.com/help/linkedin/answer/89880)
+  * Good definition of how to keep it professional 
