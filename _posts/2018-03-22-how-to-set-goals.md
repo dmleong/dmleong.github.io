@@ -7,7 +7,7 @@ comments: False
 categories: blog
 tags: management, for business, goals, goal setting
 excerpt: "How to help your direct reports set useful goals and help yourself write performance reviews"
-excerpt-photo: /img/posts/anchor.jpg
+excerpt-photo: /img/posts/goalpost.jpg
 ---
 
 Now that I've transitioned to management, I've found myself becoming a person I never thought I would be. I like fitted blazers. I wear trousers instead of skinny jeans (sometimes). I go to the gym. I like *goals*. Ugh. Who even am I?
@@ -38,4 +38,4 @@ With all of these past notes, it makes writing reviews much easier, makes it cle
 
 It also makes it much easier to spot if they're available for a promotion, since it clearly shows where they are in the engineering levels.
 
-I hope this helps you out! 
+I hope this helps you out!
