@@ -39,3 +39,5 @@ With all of these past notes, it makes writing reviews much easier, makes it cle
 It also makes it much easier to spot if they're available for a promotion, since it clearly shows where they are in the engineering levels.
 
 I hope this helps you out!
+
+*Image source: https://flic.kr/p/8jvw78* 
