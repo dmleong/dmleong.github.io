@@ -37,7 +37,7 @@ Examined Through Hate Speech](http://comp.social.gatech.edu/papers/cscw18-chand-
   
 ## Books 
 * [Autobiography of a Recovering Skinhead](https://www.amazon.com/dp/B0043VDC52/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
-  * Autobiography of the leader of the Neo Nazi movement in the 1990s, this story follows what led to his descent into hate and what brought him back out
+  * Autobiography of the leader of the Neo Nazi movement in the 1990s, this story follows what led to his descent into hate and what brought him back out (shorter, similar video [here](https://www.ted.com/talks/christian_picciolini_my_descent_into_america_s_neo_nazi_movement_and_how_i_got_out))
 * [Haters: Harassment, Abuse, and Violence Online](https://www.amazon.com/Haters-Harassment-Abuse-Violence-Online-ebook/dp/B01LYIP1B2/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1489787699&sr=1-1&keywords=haters+online+harassment)
   * In-depth look into the history of online harassment, the underlying causes of hate mobs, and how to contain it 
 * [The Internet of Garbage](https://www.amazon.com/Internet-Garbage-Sarah-Jeong-ebook/dp/B011JAV030/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1489787586&sr=1-1&keywords=the+internet+of+garbage)
@@ -88,6 +88,8 @@ Examined Through Hate Speech](http://comp.social.gatech.edu/papers/cscw18-chand-
 ## Videos 
 * [Why are you so angry? "The Good Guy"](https://youtu.be/TCqQ9LxzTwM?list=PLJA_jUddXvY62dhVThbeegLPpvQlR4CjF)
   * Deconstructs why people become angry when there is a perceived attack on their identity (i.e. gamers feeling personally attacked by Anita Sarkeesian's analysis of sexism in games) 
+* [My Descent into the Neo Nazi Movement and How I Got Out](https://www.ted.com/talks/christian_picciolini_my_descent_into_america_s_neo_nazi_movement_and_how_i_got_out)
+  * A personal story of how youth become radicalized and how compassion is the key to fixing ig
 
 ## Resources 
 * [ADL's hate symbols database](https://www.adl.org/education/references/hate-symbols)
