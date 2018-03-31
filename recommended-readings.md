@@ -8,12 +8,19 @@ Navigating the world of online harassment can be tricky, as one can get stuck on
 
 This list is intended to be a set of resources to help one understand the sociological phenomenon that is online harassment, what causes it, and helpful tactics to dispell misinformation.
 
-Also includes some resources to protect yourself if you find yourself on the receiving end of harassment.
 
 {% include search.html %}
 
 ---
 
-{% for article in site.data.recommended-readings %}
-    Title: {{ article.title }}
-{% endfor %}    
+<details>
+  <summary>See full list of recommended reads ({{site.data.recommended-readings.size}})</summary>
+  {% for article in site.data.recommended-readings %}
+  <p><a href="{{article.url}}">{{article.title}} [{{article.category}}]</a></li>
+    <ul>
+      <li>{{article.description}}</li>
+      <li>Tags: {{article.tags}}</li>
+    </ul>
+  </p>
+  {% endfor %}    
+</details>

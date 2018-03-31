@@ -1,5 +1,4 @@
 <!-- HTML elements for search -->
-<h2>Search recommended reading list</h2>
 Filter by:
 <ul>
   <li>Tags (trolls, online harassment, gender, good examples, community guidelines)</li>
@@ -18,6 +17,6 @@ var sjs = SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
   json: {{ site.data.recommended-readings | jsonify }},
-  searchResultTemplate: '<li><a href="{url}">{title} [{category}]</a></li><ul><li>{description}</li><li>Tags: {tags}</ul></li>'
+  searchResultTemplate: '<li><a href="{url}">{title} [{category}]</a></li><ul><li>{description}</li><li>Tags: {tags}</li></ul></li>'
 })
 </script>
