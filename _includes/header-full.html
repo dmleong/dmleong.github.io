@@ -2,7 +2,7 @@
 
 	<div class="wrapper">
 
-		<a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+		<a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}   | </a>
 
 		<nav class="site-nav">
 			<a href="#" class="menu-icon">
@@ -14,13 +14,13 @@
 			</a>
 
 			<div class="trigger">
-				{% for page in site.data.navigation %}
-					{% if page.page == true %}
-						<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-					{% else %}
-						<a class="page-link" href="{{ page.url }}">{{ page.title }}</a>
+				{% for nav in site.data.navigation.docs_list_title %}
+					{% if nav.title %}
+						<a class="page-link" href="{{ nav.url | prepend: site.baseurl }}">{{ nav.title }}</a>
 					{% endif %}
 				{% endfor %}
+				<a href="http://consensualsoftware.com" class="page-link">Consensual Software</a>
+				<a href="https://feerless.us" class="page-link">Feerless</a>
 			</div>
 		</nav>
 

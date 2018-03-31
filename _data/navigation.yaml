@@ -2,20 +2,20 @@ docs_list_title: Navigation
 docs:
 
 - title: About
-  page: true
-  url: about.md
+  local: true
+  url: ../about
 
 - title: Blog
-  page: true
-  url: blog.md
+  local: true
+  url: ../blog
 
 - title: Recommended readings
-  page: true
-  url: recommended-readings.md
+  local: true
+  url: ../recommended-readings
 
 - title: Public speaking
-  page: true
-  url: speaking.md
+  local: true
+  url: ../public
 
 - title: Consensual software
   url: http://consensualsoftware.com
