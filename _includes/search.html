@@ -1,5 +1,13 @@
 <!-- HTML elements for search -->
-<input type="text" id="search-input" placeholder="Search recommended readings">
+<h2>Search recommended reading list</h2>
+Filter by:
+<ul>
+  <li>Tags (trolls, online harassment, gender, good examples, community guidelines)</li>
+  <li>Content type (article, book, study, video)</li>
+  <li>Resources (protect yourself)</li>
+</ul>
+
+<input type="text" id="search-input" placeholder="Search">
 
 <ul id="results-container"></ul>
 
@@ -9,6 +17,7 @@
 var sjs = SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
-  json: '/recommended-readings.json'
+  json: '/recommended-readings.json',
+  searchResultTemplate: '<li><a href="{url}">{title} [{category}]</a></li><ul><li>{description}</li></ul></li>'
 })
 </script>
