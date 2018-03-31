@@ -1,0 +1,22 @@
+<!-- HTML elements for search -->
+Filter by:
+<ul>
+  <li>Tags (trolls, online harassment, gender, good examples, community guidelines)</li>
+  <li>Content type (article, book, study, video)</li>
+  <li>Resources (protect yourself)</li>
+</ul>
+
+<input type="text" id="search-input" placeholder="Search">
+
+<ul id="results-container"></ul>
+
+<script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
+
+<script>
+var sjs = SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: {{ site.data.recommended-readings | jsonify }},
+  searchResultTemplate: '<li><a href="{url}">{title} [{category}]</a></li><ul><li>{description}</li><li>Tags: {tags}</li></ul></li>'
+})
+</script>

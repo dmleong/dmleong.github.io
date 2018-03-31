@@ -278,11 +278,13 @@ h2 {
 	}
 }
 
-input[type="EMAIL"] {
+input {
 	width: 85%;
 	@include font-size(10);
 	padding: 4px;
-	color: $grey;
+	color: $dark-purple;
+	border-color: $dark-purple;
+	border-width: 1px;
 }
 
 .button {
@@ -338,4 +340,3 @@ input[type="EMAIL"] {
 .similar-posts {
 	margin-top: 50px;
 }
-

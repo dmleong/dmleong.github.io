@@ -1,0 +1,310 @@
+[
+    {
+      "title"       : "Anyone can be a troll",
+      "url"         : "https://files.clr3.com/papers/2017_anyone.pdf",
+      "category"    : "study",
+      "tags"        : "trolls, online harassment, study",
+      "description" : "Study done on how mood and environment can turn anyone into a troll"
+    },
+    {
+      "title"       : "Are sex differences in antisocial and prosocial Facebook use explained by narcissism and relational self-construal?",
+      "url"         : "http://ac.els-cdn.com/S0747563217305010/1-s2.0-S0747563217305010-main.pdf?_tid=f12905b4-9c96-11e7-a9d9-00000aab0f26&acdnat=1505755956_9fc441fc5ff26de802b53bea469eb4b8",
+      "category"    : "study",
+      "tags"        : "trolls, online harassment, study, gender",
+      "description" : "Study done on gender and narcissm in toxic comments, shorter version: http://www.huffingtonpost.com/entry/study-facebook-trolls-are-just-narcissist-men-with-internet-access_us_59babdede4b086432b05336d"
+    },
+    {
+      "title"       : "Gender differences and bias in open source: Pull request acceptance of women versus men",
+      "url"         : "https://peerj.com/preprints/1733/?td=sd",
+      "category"    : "study",
+      "tags"        : "study, gender, open source",
+      "description" : "Women are more likely to have their pull requests merged if they hide their gender"
+    },
+    {
+      "title"       : "Online Harassment 2017",
+      "url"         : "http://www.pewinternet.org/2017/07/11/online-harassment-2017/",
+      "category"    : "study",
+      "tags"        : "study, gender, online harassment, statistics",
+      "description" : "Pew Research looks into online harassment"
+    },
+    {
+      "title"       : "Online Harassment, Defamation, and Hateful Speech: A Primer of the Legal Landscape",
+      "url"         : "https://poseidon01.ssrn.com/delivery.php?ID=809117069101031088086103119084027074000085037059021024124065101030009029090089001110060097037059060026020097006127030124121096025086030014047000028123074001010096090017035095089105127070113026113093121100071121025119125079089000084071119001096066003&EXT=pdf",
+      "category"    : "study",
+      "tags"        : "study, law, online harassment",
+      "description" : "A comprehensive look at laws in the US regarding online harassment, for non-lawyers"
+    },
+    {
+      "title"       : "Pew Research on Online Harassment",
+      "url"         : "http://www.pewinternet.org/2014/10/22/online-harassment/",
+      "category"    : "study",
+      "tags"        : "study, gender, online harassment, statistics",
+      "description" : "Statistics on who gets harassed along gender and age (not race, though)"
+    },
+    {
+      "title"       : "The Rhetorical Dynamics of Gender Harassment On-Line",
+      "url"         : "https://www.researchgate.net/publication/220175350_The_Rhetorical_Dynamics_of_Gender_Harassment_On-Line",
+      "category"    : "study",
+      "tags"        : "study, gender, online harassment, IRC, online communities",
+      "description" : "Study on gendered harassment in IRC channels in the 1990s"
+    },
+    {
+      "title"       : "You Can’t Stay Here: The Efficacy of Reddit’s 2015 Ban Examined Through Hate Speech",
+      "url"         : "http://comp.social.gatech.edu/papers/cscw18-chand-hate.pdf",
+      "category"    : "study",
+      "tags"        : "study, online harassment, reddit, online communities, banning, hate speech",
+      "description" : "Study on the efficacy of banning destructive behavior -- We find that the ban worked for Reddit. More accounts than expected discontinued using the site; those that stayed drastically decreased their hate speech usage—by at least 80%. Though many subreddits saw an influx of `r/fatpeoplehate` and `r/CoonTown` “migrants,” those subreddits saw no significant changes in hate speech usage. In other words, other subreddits did not inherit the problem."
+    },
+    {
+      "title"       : "Open Source Survey",
+      "url"         : "http://opensourcesurvey.org/2017/",
+      "category"    : "study",
+      "tags"        : "study, online harassment, open source, online communities",
+      "description" : "Open source survey on harassment, documentation, and licensing and how it affects open source contribution"
+    },
+    {
+      "title"       : "Community Interaction and Conflict on the Web",
+      "url"         : "https://arxiv.org/pdf/1803.03697.pdf",
+      "category"    : "study",
+      "tags"        : "study, online harassment, reddit",
+      "description" : "Less than 1% of internet communities start 74% of conflicts [which then lead to] echo chambers... and cause long-term adverse affects and reduce activity [on online platforms]. This study also covers a predictive model for online conflict"
+    },
+    {
+      "title"       : "Autobiography of a Recovering Skinhead",
+      "url"         : "https://www.amazon.com/dp/B0043VDC52/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1",
+      "category"    : "book",
+      "tags"        : "book, neo nazi, nazi, hate group, hate speech, good example, rehabilitation",
+      "description" : "Autobiography of the leader of the Neo Nazi movement in the 1990s, this story follows what led to his descent into hate and what brought him back out"
+    },
+    {
+      "title"       : "My descent into America's Neo Nazi Movement and How I Got Out",
+      "url"         : "https://www.ted.com/talks/christian_picciolini_my_descent_into_america_s_neo_nazi_movement_and_how_i_got_out",
+      "category"    : "video",
+      "tags"        : "video, neo nazi, nazi, hate group, hate speech, good example, rehabilitation",
+      "description" : "TED talk of a Neo Nazi, this story follows what led to his descent into hate and what brought him back out"
+    },
+    {
+      "title"       : "Haters: Harassment, Abuse, and Violence Online",
+      "url"         : "https://www.amazon.com/Haters-Harassment-Abuse-Violence-Online-ebook/dp/B01LYIP1B2/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1489787699&sr=1-1&keywords=haters+online+harassment",
+      "category"    : "book",
+      "tags"        : "book, online harassment, hate mobs, hate group, online communities, tech companies, tech",
+      "description" : "In-depth look into the history of online harassment, the underlying causes of hate mobs, and how to contain it"
+    },
+    {
+      "title"       : "The Internet of Garbage",
+      "url"         : "https://www.amazon.com/Internet-Garbage-Sarah-Jeong-ebook/dp/B011JAV030/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1489787586&sr=1-1&keywords=the+internet+of+garbage",
+      "category"    : "book",
+      "tags"        : "book, online harassment, online communities, tech companies, tech",
+      "description" : "Insight into how online communities have become toxic waste dumping grounds and what role communities need to play in helping make sure their users are safe"
+    },
+    {
+      "title"       : "Smart Girl's Guide to Privacy",
+      "url"         : "https://www.amazon.com/Smart-Girls-Guide-Privacy-Rest-ebook/dp/B00JBV3C6S",
+      "category"    : "book",
+      "tags"        : "book, online harassment, privacy, gender, tech",
+      "description" : "Practical tips to stay safe on the internet, for all genders"
+    },
+    {
+      "title"       : "The Oatmeal: Backfire Effect",
+      "url"         : "http://theoatmeal.com/comics/believe",
+      "category"    : "comic",
+      "tags"        : "comic, backfire effect, facts, rehabilitation",
+      "description" : "Webcomic exploring the backfire effect and why people have trouble believing facts they find threatening"
+    },
+    {
+      "title"       : "The Aesthetics of the Alt-Right",
+      "url"         : "http://baltimore-art.com/2017/02/11/the-aesthetics-of-the-alt-right/",
+      "category"    : "article",
+      "tags"        : "article, alt right, alt-right, fascism, white supremacy",
+      "description" : "Long, in-depth analysis at the alt-right and fascist movement"
+    },
+    {
+      "title"       : "Codes of Conduct: Maybe They're Not So Bad?",
+      "url"         : "https://philsturgeon.uk/2016/09/15/codes-of-conduct-maybe-theyre-not-so-bad/",
+      "category"    : "article",
+      "tags"        : "article, code of conduct, open source",
+      "description" : "Deconstruction of many of the arguments against OSS projects adopting codes of conduct"
+    },
+    {
+      "title"       : "Dissecting Trump's Most Rabid Online Following",
+      "url"         : "https://fivethirtyeight.com/features/dissecting-trumps-most-rabid-online-following/",
+      "category"    : "article",
+      "tags"        : "article, machine learning, reddit, trump, online communities, online harassment, hate mobs",
+      "description" : "Using machine learning to dissect what main interests unite Trump followers on Reddit"
+    },
+    {
+      "title"       : "The Distress of the Privileged",
+      "url"         : "https://weeklysift.com/2012/09/10/the-distress-of-the-privileged/",
+      "category"    : "article",
+      "tags"        : "article, tolerance of intolerance, oppression, privilege, diversity, fallacy, logical fallacies",
+      "description" : "In-depth look into why tolerance of intolerance is not the same as oppression"
+    },
+    {
+      "title"       : "Explaining privilege to a broke white person",
+      "url"         : "http://www.huffingtonpost.com/gina-crosleycorcoran/explaining-white-privilege-to-a-broke-white-person_b_5269255.html",
+      "category"    : "article",
+      "tags"        : "article, oppression, privilege, beginner, D&I 101, diversity, fallacy, logical fallacies",
+      "description" : "Great primer on how to explain privilege and intersectionality"
+    },
+    {
+      "title"       : "How do you set metrics?",
+      "url"         : "http://mailchi.mp/juliezhuo/how-do-you-set-metrics?e=052fc29187",
+      "category"    : "article",
+      "tags"        : "article, online communities, metrics, facebook",
+      "description" : "Good section on building successful communities at Facebook by defining aspirations"
+    },
+    {
+      "title"       : "How Trolls Are Ruining the Internet",
+      "url"         : "http://time.com/4457110/internet-trolls/",
+      "category"    : "article",
+      "tags"        : "article, online communities, trolls, online harassment, time magazine",
+      "description" : "Who are most likely to be trolls? (Spoiler alert: not bored teenagers in a basement!)"
+    },
+    {
+      "title"       : "The paradox of tolerance",
+      "url"         : "https://en.wikipedia.org/wiki/Paradox_of_tolerance",
+      "category"    : "article",
+      "tags"        : "article, online communities, tolerance of intolerance, oppression, online harassment, fallacy, logical fallacies",
+      "description" : "Explanation of why intolerance not being tolerated is not itself intolerant"
+    },
+    {
+      "title"       : "The Real Name Fallacy",
+      "url"         : "https://blog.coralproject.net/the-real-name-fallacy/",
+      "category"    : "article",
+      "tags"        : "article, online communities, online harassment, fallacy, logical fallacies",
+      "description" : "Well-cited debunking of the idea that removing anonymity reduces online harrassment"
+    },
+    {
+      "title"       : "The Secret Rules of the Internet: The murky history of moderation, and how it’s shaping the future of free speech",
+      "url"         : "https://www.theverge.com/2016/4/13/11387934/internet-moderator-history-youtube-facebook-reddit-censorship-free-speech",
+      "category"    : "article",
+      "tags"        : "article, online communities, online harassment, moderation, mental health, free speech",
+      "description" : "Unpacking the tolls of content moderation, its effects on the people who do it, and evolving content moderation strategies"
+    },
+    {
+      "title"       : "The Simple Psychological Trick to Political Persuasion",
+      "url"         : "https://www.theatlantic.com/science/archive/2017/02/the-simple-psychological-trick-to-political-persuasion/515181/?utm_source=twb",
+      "category"    : "article",
+      "tags"        : "article, politics, difficult conversations, free speech, tips and tricks, D&I 101, beginner",
+      "description" : "Explores how to have difficult conversations with people about politics without them shutting down (useful for discussing social change and 'free speech' activists)"
+    },
+    {
+      "title"       : "We can all help with Overwatch’s toxicity — but Blizzard must lead",
+      "url"         : "https://venturebeat.com/2017/09/17/everyone-can-help-with-toxicity-in-overwatch-but-blizzard-must-lead/amp/",
+      "category"    : "article",
+      "tags"        : "article, online communities, online harassment, blizzard, gaming, toxicity, moderation, tech, tech industry, responsibility",
+      "description" : "Discussing why 'players should watch their behavior' isn't enough. Companies must provide the resources for developers to build moderation tools in order to foster healthy communities"
+    },
+    {
+      "title"       : "Unpacking the invisible knapsack",
+      "url"         : "https://nationalseedproject.org/white-privilege-unpacking-the-invisible-knapsack",
+      "category"    : "article",
+      "tags"        : "article, diversity, D&I 101, beginner, tips and tricks, privilege, oppression",
+      "description" : "Great primer on understanding privilege because it's often difficult to see what others don't have if you take what you got for granted"
+    },
+    {
+      "title"       : "The Polyannish Assumption",
+      "url"         : "https://stratechery.com/2017/the-pollyannish-assumption/",
+      "category"    : "article",
+      "tags"        : "article, online harassment",
+      "description" : "Assuming that everything is mostly good but for some bad apples allow harassment to continue. A more realistic approach is believe humanity is capable of both good and bad."
+    },
+    {
+      "title"       : "This is How to Build a Troll-Free Online Community",
+      "url"         : "https://www.fastcompany.com/40543021/this-is-how-to-build-a-troll-free-online-community",
+      "category"    : "article",
+      "tags"        : "article, online harassment, trolls, online community, good examples",
+      "description" : "Good example of setting up community guidelines and enforcing them"
+    },
+    {
+      "title"       : "Anonymity and Abuse Reports",
+      "url"         : "https://blog.cloudflare.com/anonymity-and-abuse-reports/",
+      "category"    : "article, lessons learned",
+      "tags"        : "article, lessons learned, online harassment, trolls, online community, reactions, neo nazis, alt-right, alt right, hate mobs, hate group",
+      "description" : "A look at how Cloudflare reacted to allegations that they passed contact information from abuse reports to alt-right hate mobs"
+    },
+    {
+      "title"       : "Why are you so angry? 'The Good Guy'",
+      "url"         : "https://youtu.be/TCqQ9LxzTwM?list=PLJA_jUddXvY62dhVThbeegLPpvQlR4CjF",
+      "category"    : "video",
+      "tags"        : "article, online harassment, trolls, online community, reactions, privilege, identity, good guy, D&I 101, beginner, attack, gaming",
+      "description" : "Deconstructs why people become angry when there is a perceived attack on their identity (i.e. gamers feeling personally attacked by Anita Sarkeesian's analysis of sexism in games)"
+    },
+    {
+      "title"       : "Anti-Defamation League hate symbols database",
+      "url"         : "https://www.adl.org/education/references/hate-symbols",
+      "category"    : "resource",
+      "tags"        : "resource, online harassment, trolls, hate symbols, hate mob, hate group",
+      "description" : "Database of commonly used hate symbols"
+    },
+    {
+      "title"       : "Crash Override Network",
+      "url"         : "http://www.crashoverridenetwork.com/",
+      "category"    : "resource",
+      "tags"        : "resource, online harassment,, help, crisis helpline, doxxing, hacked, advocacy, victims, stalking",
+      "description" : "Crisis helpline and advocacy group for those experiencing online harassment"
+    },
+    {
+      "title"       : "HackBlossom",
+      "url"         : "https://hackblossom.org/domestic-violence/",
+      "category"    : "resource",
+      "tags"        : "resource, online harassment, help, privacy, domestic abuse, hacked, victims, stalking",
+      "description" : "Privacy resources for domestic abuse victims"
+    },
+    {
+      "title"       : "Undox.me",
+      "url"         : "http://www.undox.me/",
+      "category"    : "resource",
+      "tags"        : "resource, online harassment, help, privacy, domestic abuse, hacked, victims, revenge porn, nonconsensual photos, photos, doxxing",
+      "description" : "Helpful tools to take down nonconsensual nude photos"
+    },
+    {
+      "title"       : "Staying Safe When You Say #MeToo",
+      "url"         : "https://www.aclu.org/blog/privacy-technology/internet-privacy/staying-safe-when-you-say-metoo",
+      "category"    : "resource",
+      "tags"        : "resource, online harassment, help, privacy, domestic abuse, victims, hacked, revenge porn, nonconsensual photos, photos, doxxing",
+      "description" : "ACLU's guide to staying safe on the internet (longer version here: https://hypatia.ca/safety/"
+    },
+    {
+      "title"       : "Stop datamining me",
+      "url"         : "https://www.stopdatamining.me/opt-out-list/",
+      "category"    : "resource",
+      "tags"        : "resource, help, privacy, victims, data",
+      "description" : "A directory of Opt-Out links to stop data brokers from selling your personal information"
+    },
+    {
+      "title"       : "Delete me",
+      "url"         : "http://abine.com/deleteme/",
+      "category"    : "resource",
+      "tags"        : "resource, help, privacy, victims, revenge porn, data, doxxing, hacked",
+      "description" : "Commercial service if you get hacked"
+    },
+    {
+      "title"       : "Speak Up & Stay Safe(r)",
+      "url"         : "https://onlinesafety.feministfrequency.com/en/",
+      "category"    : "resource",
+      "tags"        : "resource, online harassment, help, privacy, domestic abuse, hacked, victims, photos, doxxing",
+      "description" : "Feminist Frequency's guide to staying safe"
+    },
+    {
+      "title"       : "Engadget's community guidelines",
+      "url"         : "https://www.engadget.com/2017/05/01/engadget-commenting-policy/",
+      "category"    : "resource, good example",
+      "tags"        : "resource, good example, community guidelines, online community",
+      "description" : "Excellent example of how other sites handle community guidelines"
+    },
+    {
+      "title"       : "Pinterest's content moderation guide",
+      "url"         : "https://policy.pinterest.com/en/community-guidelines",
+      "category"    : "resource, good example",
+      "tags"        : "resource, good example, community guidelines, online community",
+      "description" : "Visual representation of what content is and is not allowed on Pinterest"
+    },
+    {
+      "title"       : "LinkedIn's Professional Community Policies",
+      "url"         : "https://policy.pinterest.com/en/community-guidelines",
+      "category"    : "resource, good example",
+      "tags"        : "resource, good example, community guidelines, online community",
+      "description" : "Good definition of how to keep it professional"
+    }
+]
