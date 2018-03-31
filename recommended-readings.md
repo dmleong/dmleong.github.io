@@ -14,14 +14,13 @@ Also includes some resources to protect yourself if you find yourself on the rec
 
 ---
 
-
 ## Studies
 * [Anyone can be a troll](https://files.clr3.com/papers/2017_anyone.pdf) - Shorter version [here](https://theconversation.com/our-experiments-taught-us-why-people-troll-72798)
   * Study done on how mood and environment can turn anyone into a troll
 * [Are sex differences in antisocial and prosocial Facebook use explained by narcissism and relational self-construal?](http://ac.els-cdn.com/S0747563217305010/1-s2.0-S0747563217305010-main.pdf?_tid=f12905b4-9c96-11e7-a9d9-00000aab0f26&acdnat=1505755956_9fc441fc5ff26de802b53bea469eb4b8) - Shorter version [here](http://www.huffingtonpost.com/entry/study-facebook-trolls-are-just-narcissist-men-with-internet-access_us_59babdede4b086432b05336d)
   * Study done on gender and narcissm in toxic comments
 * [Gender differences and bias in open source: Pull request acceptance of women versus men](https://peerj.com/preprints/1733/?td=sd)
-  * Women are more likely to have their pull requests merged if they hide their gender
+  * A study on how gender affects open source contributions
 * [Online Harassment 2017](http://www.pewinternet.org/2017/07/11/online-harassment-2017/)
   * Latest results from Pew Research regarding online harassment
 * [Online Harassment, Defamation, and Hateful Speech: A Primer of the Legal Landscape](https://poseidon01.ssrn.com/delivery.php?ID=809117069101031088086103119084027074000085037059021024124065101030009029090089001110060097037059060026020097006127030124121096025086030014047000028123074001010096090017035095089105127070113026113093121100071121025119125079089000084071119001096066003&EXT=pdf)

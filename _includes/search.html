@@ -18,6 +18,6 @@ var sjs = SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
   json: '/recommended-readings.json',
-  searchResultTemplate: '<li><a href="{url}">{title} [{category}]</a></li><ul><li>{description}</li></ul></li>'
+  searchResultTemplate: '<li><a href="{url}">{title} [{category}]</a></li><ul><li>{description}</li><li>Tags: {tags}</ul></li>'
 })
 </script>
