@@ -1,0 +1,24 @@
+docs_list_title: Navigation
+docs:
+
+- title: About
+  page: true
+  url: about.md
+
+- title: Blog
+  page: true
+  url: blog.md
+
+- title: Recommended readings
+  page: true
+  url: recommended-readings.md
+
+- title: Public speaking
+  page: true
+  url: speaking.md
+
+- title: Consensual software
+  url: http://consensualsoftware.com
+
+- title: Feerless
+  url: https://www.sfchronicle.com/business/article/Trigger-warning-New-app-warns-Netflix-viewers-of-6801448.php
