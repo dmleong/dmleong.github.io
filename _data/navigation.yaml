@@ -5,10 +5,6 @@ docs:
   local: true
   url: ../about
 
-- title: Blog
-  local: true
-  url: ../blog
-
 - title: Recommended readings
   local: true
   url: ../recommended-readings
@@ -16,6 +12,10 @@ docs:
 - title: Public speaking
   local: true
   url: ../public
+
+- title: Blog
+  local: true
+  url: ../blog
 
 - title: Consensual software
   url: http://consensualsoftware.com
