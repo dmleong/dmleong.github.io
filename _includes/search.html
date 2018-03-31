@@ -17,7 +17,7 @@ Filter by:
 var sjs = SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
-  json: '/recommended-readings.json',
+  json: {{ site.data.recommended-readings | jsonify }},
   searchResultTemplate: '<li><a href="{url}">{title} [{category}]</a></li><ul><li>{description}</li><li>Tags: {tags}</ul></li>'
 })
 </script>
