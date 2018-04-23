@@ -306,5 +306,12 @@
       "category"    : "resource, good example",
       "tags"        : "resource, good example, community guidelines, online community",
       "description" : "Good definition of how to keep it professional"
+    },
+    {
+      "title"       : "Technology Safety Resources",
+      "url"         : "https://www.techsafety.org/resources/",
+      "category"    : "resource",
+      "tags"        : "resource, online harassment, help, privacy, domestic abuse, hacked, victims, photos, doxxing",
+      "description" : "The Safety Net Project develops resources and information on the use of technology for agencies and survivors of domestic violence, sexual assault, stalking, and trafficking."
     }
 ]
