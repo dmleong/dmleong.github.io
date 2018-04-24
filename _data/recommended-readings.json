@@ -313,5 +313,12 @@
       "category"    : "resource",
       "tags"        : "resource, online harassment, help, privacy, domestic abuse, hacked, victims, photos, doxxing",
       "description" : "The Safety Net Project develops resources and information on the use of technology for agencies and survivors of domestic violence, sexual assault, stalking, and trafficking."
+    },
+    {
+      "title"       : "Facebook Community Standards",
+      "url"         : "https://www.facebook.com/communitystandards/",
+      "category"    : "resource, good example",
+      "tags"        : "resource, good example, community guidelines, online community",
+      "description" : "List of what you can and cannot post on Facebook"
     }
 ]
