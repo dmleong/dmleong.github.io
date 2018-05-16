@@ -320,5 +320,12 @@
       "category"    : "resource, good example",
       "tags"        : "resource, good example, community guidelines, online community",
       "description" : "List of what you can and cannot post on Facebook"
+    },
+    {
+      "title"       : "Paying attention to toxic comments online",
+      "url"         : "https://web.stanford.edu/class/cs224n/reports/6856482.pdf",
+      "category"    : "study, machine learning",
+      "tags"        : "study, research, machine learning, stanford",
+      "description" : "Stanford paper on how to detect and classify online abusive language"
     }
 ]
