@@ -327,5 +327,12 @@
       "category"    : "study, machine learning",
       "tags"        : "study, research, machine learning, stanford",
       "description" : "Stanford paper on how to detect and classify online abusive language"
+    },
+    {
+      "title"       : "How Community Feedback Shapes User Behavior",
+      "url"         : "https://arxiv.org/pdf/1405.1429.pdf",
+      "category"    : "study",
+      "tags"        : "study, research, stanford, online community, trolls, statistics, user behavior, feedback",
+      "description" : "Studying showing that the 'down vote' leads to less meaningful content over time. Positive feedback does not affect authors and ignoring them tends to make them go away."
     }
 ]
