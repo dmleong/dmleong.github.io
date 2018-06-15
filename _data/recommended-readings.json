@@ -334,5 +334,12 @@
       "category"    : "study",
       "tags"        : "study, research, stanford, online community, trolls, statistics, user behavior, feedback",
       "description" : "Studying showing that the 'down vote' leads to less meaningful content over time. Positive feedback does not affect authors and ignoring them tends to make them go away. Summary article here: https://medium.com/the-physics-arxiv-blog/data-mining-reveals-how-the-down-vote-leads-to-a-vicious-circle-of-negative-feedback-aad9d49da238"
+    },
+    {
+      "title"       : "Crossing the Line: What Counts as Online Harassment?",
+      "url"         : "http://www.pewinternet.org/2018/01/04/crossing-the-line-what-counts-as-online-harassment/",
+      "category"    : "study",
+      "tags"        : "study, research, online harassment, race, gender",
+      "description" : "Studying showing what Americans believe is online harassment along the lines of gender and race"
     }
 ]
