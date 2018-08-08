@@ -7,6 +7,10 @@ permalink: /public/
 Need speakers for your conference? I check off several diversity boxes, and I also happen to know what I'm talking about! Best way to reach out is to <a href="https://twitter.com/tsunamino">tweet at me</a> with your CFP.
 
 ### Online safety ###
+Bloomberg Distinguished Engineering Speaker series - <a href="https://www.techatbloomberg.com/blog/distinguished-speaker-series-danielle-leong/">Consensual software: Prioritizing user trust and safety</a>
+
+Affect conf - <a href="https://affectconf.com/speakers/#danielle">Consensual software: Prioritizing user trust and safety</a>
+
 O'Reilly Security Conference - <a href="https://conferences.oreilly.com/security/sec-ny/public/schedule/detail/62289">Consensual software: Prioritizing user trust and safety</a>
 
 Making Online Collaboration Safer at GitHub
