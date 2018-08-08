@@ -13,6 +13,8 @@ Affect conf - <a href="https://affectconf.com/speakers/#danielle">Consensual sof
 
 O'Reilly Security Conference - <a href="https://conferences.oreilly.com/security/sec-ny/public/schedule/detail/62289">Consensual software: Prioritizing user trust and safety</a>
 
+Woman Tech Makers Madrid - <a href="https://www.youtube.com/watch?v=Ccw3VfE3P4M">Video</a>
+
 Making Online Collaboration Safer at GitHub
 
 <div class="js-video [widescreen]"><iframe width="560" height="315" src="http://www.ustream.tv/embed/recorded/91347818?html5ui" frameborder="0" allowfullscreen></iframe></div>
