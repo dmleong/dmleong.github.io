@@ -26,6 +26,10 @@ DZone - <a href="https://dzone.com/articles/privacy-and-consensual-iot">Privacy 
 DZone - <a href="https://dzone.com/guides/iot-applications-protocols-and-best-practices">DZone's Guide to
 IoT: Applications, Protocols, and Best Practices</a>
 
+## Management 
+
+<a href="https://medium.com/@tsunamino/setting-goals-with-your-engineers-that-dont-completely-suck-cb76b87e4275">Setting goals with your engineers that don't totally suck</a>
+
 ### Feerless in the press ###
 San Francisco Chronicle - <a href="http://www.sfchronicle.com/business/article/Trigger-warning-New-app-warns-Netflix-viewers-of-6801448.php">Trigger warning: New app warns Netflix viewers of graphic content</a>
 
