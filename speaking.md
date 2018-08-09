@@ -9,6 +9,8 @@ Need speakers for your conference? I check off several diversity boxes, and I al
 ### Online safety ###
 Bloomberg Distinguished Engineering Speaker series - <a href="https://www.techatbloomberg.com/blog/distinguished-speaker-series-danielle-leong/">Consensual software: Prioritizing user trust and safety</a>
 
+InfoQ track host - <a href="https://qconsf.com/sf2018/track/socially-conscious-software">Socially Conscious Software</a>
+
 Affect conf - <a href="https://affectconf.com/speakers/#danielle">Consensual software: Prioritizing user trust and safety</a>
 
 O'Reilly Security Conference - <a href="https://conferences.oreilly.com/security/sec-ny/public/schedule/detail/62289">Consensual software: Prioritizing user trust and safety</a>
