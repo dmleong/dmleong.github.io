@@ -14,4 +14,4 @@ I'm currently an engineering manager at GitHub, working to build healthier, safe
 
 I'm passionate about increasing diversity and inclusion in tech, and I was one of the founding members of Skittles, Twilio's diversity initiative. In my spare time, I teach public high school students how to code through the non-profit organization <a href="http://missionbit.com/">Mission Bit</a>, and volunteer at <a href="http://www.lpfi.org/">Level the Playing Field Institute</a> (LPFI) hackathons, and <a href="http://www.codetenderloin.com/">Code Tenderloin</a>.
 
-In my spare spare time, I eat lots of pizza, take mediocre photos of <a href="https://www.instagram.com/royalscoutness/">my dog on Instagram</a>, and run around in a t-rex outfit, occasionally all at the same time.
+In my spare spare time, I run a <a href="http://photos.danielleleong.com">photography studio</a>, eat lots of pizza, and run around in a T-rex costume, sometimes at the same time.

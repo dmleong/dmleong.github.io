@@ -13,9 +13,9 @@ docs:
   local: true
   url: ../public
 
-- title: Blog
+- title: Photos
   local: true
-  url: ../blog
+  url: http://photos.danielleleong.com
 
 - title: Consensual software
   url: http://consensualsoftware.com
