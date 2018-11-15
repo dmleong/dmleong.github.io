@@ -341,5 +341,12 @@
       "category"    : "study",
       "tags"        : "study, research, online harassment, race, gender",
       "description" : "Studying showing what Americans believe is online harassment along the lines of gender and race"
+    },
+        {
+      "title"       : "Alt right glossary",
+      "url"         : "https://rationalwiki.org/wiki/Alt-right_glossary",
+      "category"    : "resource",
+      "tags"        : "resource, online harassment, alt right,",
+      "description" : "Glossary of commonly used symbols and terms used by the alt right"
     }
 ]
