@@ -355,5 +355,33 @@
       "category"    : "article",
       "tags"        : "article, echo chamber, social media, bubble, cult, radicalization, online community",
       "description" : "Discusses how social media first acts as a bubble, then turns into an echo chamber that primes users to reject opposing facts as attacks on their belief system, similar to a cult. The only way out is through a complete rejection of one's beliefs and starting over"
+    },
+    {
+      "title"       : "Security Checklist",
+      "url"         : "https://securitycheckli.st/",
+      "category"    : "resource",
+      "tags"        : "resource, checklist, security, privacy, safety, open source",
+      "description" : "Handy checklist to make sure that you have all your security features updated"
+    },
+    {
+      "title"       : "EFF's Surveillance Self-Defense",
+      "url"         : "https://ssd.eff.org/en",
+      "category"    : "resource",
+      "tags"        : "resource, checklist, security, privacy, safety, journalist",
+      "description" : "EFF's guide to staying safe on the internet"
+    },
+    {
+      "title"       : "Surveillance Self-Defense Checklist",
+      "url"         : "https://medium.com/theintercept/surveillance-self-defense-for-journalists-ce627e332db6",
+      "category"    : "resource",
+      "tags"        : "resource, checklist, security, privacy, safety, journalist",
+      "description" : "Checklist for journalists and activists to stay safe"
+    },
+    {
+      "title"       : "Freedom of the Press Guides and Training",
+      "url"         : "https://freedom.press/training/",
+      "category"    : "resource",
+      "tags"        : "resource, checklist, security, privacy, safety, journalist",
+      "description" : "Security for journalists"
     }
 ]
