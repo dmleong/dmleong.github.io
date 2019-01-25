@@ -9,7 +9,7 @@ docs:
   local: true
   url: ../recommended-readings
 
-- title: Public speaking
+- title: Speaking
   local: true
   url: ../public
 
