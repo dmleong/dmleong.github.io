@@ -383,5 +383,12 @@
       "category"    : "resource",
       "tags"        : "resource, checklist, security, privacy, safety, journalist",
       "description" : "Security for journalists"
+    },
+    {
+      "title"       : "Social media governance: Can companies motivate voluntary rule following behavior among their users",
+      "url"         : "https://research.fb.com/wp-content/uploads/2018/10/Social-media-governance-Can-companies-motivate-voluntary-rule-following-behavior-among-their-users.pdf",
+      "category"    : "study",
+      "tags"        : "study, social media, rehabilitation, online communities, destructive behavior",
+      "description" : "Study on how social media companies can encourage rehabilitation of destructive behavior by being clear and transparent about destructive behavior and the cnosequences"
     }
 ]
