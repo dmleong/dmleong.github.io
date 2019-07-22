@@ -12,4 +12,4 @@ She’s the creator and founder of <a href="https://www.sfchronicle.com/business
 
 She’s passionate about increasing diversity and inclusion in tech, and was one of the founding members of Skittles, Twilio's diversity initiative. In her spare time, she volunteers at <a href="http://www.codetenderloin.com/">Code Tenderloin</a> and mentors underrepresented folks in tech.
 
-In her spare spare time, she runs a <a href="http://photos.danielleleong.com">portrait and fashion photography studio</a>, eats lots of pizza, and runs around in a T-rex costume, sometimes at the same time.
+In her spare spare time, she runs a <a href="http://photos.danielleleong.com">portrait and fashion photography studio</a> and yes, she would love to take your photo!
