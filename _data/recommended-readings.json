@@ -397,5 +397,19 @@
       "category"    : "article",
       "tags"        : "tolerance, paradox of tolerance, intolerance, social media, rehabilitation, online communities, destructive behavior",
       "description" : "Expanding more on the paradox of tolerance and how tolerance is a peace treaty, not a blanket statement allowing anyone to get away with anything"
+    },
+    {
+      "title"       : "Tall Poppy",
+      "url"         : "https://tallpoppy.com/",
+      "category"    : "resource",
+      "tags"        : "resource, protection, online harassment, personally identifying information, PII",
+      "description" : "Personal protection service against online harassment"
+    }, 
+    {
+      "title"       : "DeleteMe",
+      "url"         : "https://joindeleteme.com/",
+      "category"    : "resource",
+      "tags"        : "resource, protection, online harassment, personally identifying information, PII",
+      "description" : "Personal service to delete your personally identifying information (PII) from address aggregators"
     }
 ]
