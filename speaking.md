@@ -30,6 +30,8 @@ IoT: Applications, Protocols, and Best Practices</a>
 
 ## Management 
 
+[How to build emotionally intelligent engineering teams](https://pbell.wistia.com/medias/k8htv3947p)
+
 <a href="https://medium.com/@tsunamino/setting-goals-with-your-engineers-that-dont-completely-suck-cb76b87e4275">Setting goals with your engineers that don't totally suck</a>
 
 ### Feerless in the press ###
@@ -57,6 +59,8 @@ Demoing Netflix Triggers - a Waze for Netflix to help people with PTSD watch the
 I speak out about what it's like to change careers and join software development in <a href="http://www.amazon.com/Quit-Law-Code-Transition-Development-ebook/dp/B00Y6QVUXU/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=wilha-20&linkId=1de67bfb785afecca7216ddbca71ebc6" target="__blank">Quit Law and Code: A Guide to Transition from Law to App Development</a>.
 
 ## Diversity in tech ##
+
+Lead a LeadDev Together session on [Building Inclusive Companies](https://together.leaddev.com/programme/building-inclusive-companies)
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">A very happy birthday to Skittles, <a href="https://twitter.com/twilio">@twilio</a>&#39;s Diversity &amp; Inclusion team! Can&#39;t believe it&#39;s been one whole year! <a href="http://t.co/bdWHGXbQJY">pic.twitter.com/bdWHGXbQJY</a></p>&mdash; Danielle Leong (@tsunamino) <a href="https://twitter.com/tsunamino/status/605474861427728384">June 1, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
