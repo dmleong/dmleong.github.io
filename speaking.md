@@ -4,7 +4,7 @@ title: Public Speaking
 permalink: /public/
 ---
 # Contact me
-Need speakers for your conference? I check off several diversity boxes, and I also happen to know what I'm talking about! Best way to reach out is to <a href="https://twitter.com/tsunamino">tweet at me</a> with your CFP.
+Need speakers for your conference? I check off several diversity boxes, and I also happen to know what I'm talking about! Best way to reach out is to message me on danielleleongphotography.com/contact
 
 ### Online safety ###
 Bloomberg Distinguished Engineering Speaker series - <a href="https://www.techatbloomberg.com/blog/distinguished-speaker-series-danielle-leong/">Consensual software: Prioritizing user trust and safety</a>
