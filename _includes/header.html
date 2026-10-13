@@ -14,11 +14,11 @@
       </a>
 
       <div class="trigger">
-        {% for page in site.data.navigation.docs %}
-          {% if page.local == true %}
-            <li><a class="page-link" href="{{ page.url }}" alt="{{ page.title }}">{{ page.title }}</a></li>
+        {% for item in site.data.navigation.docs %}
+          {% if item.url contains "://" %}
+            <li><a class="page-link" href="{{ item.url }}" alt="{{ item.title }}" target="_blank" rel="noopener">{{ item.title }}</a></li>
           {% else %}
-            <li><a class="page-link" href="{{ page.url }}" alt="{{ page.title }}">{{ page.title }}</a></li>
+            <li><a class="page-link" href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a></li>
           {% endif %}
 				{% endfor %}
       </div>
