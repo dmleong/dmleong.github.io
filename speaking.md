@@ -19,8 +19,6 @@ Woman Tech Makers Madrid - <a href="https://www.youtube.com/watch?v=Ccw3VfE3P4M"
 
 Making Online Collaboration Safer at GitHub
 
-<div class="js-video [widescreen]"><iframe width="560" height="315" src="http://www.ustream.tv/embed/recorded/91347818?html5ui" frameborder="0" allowfullscreen></iframe></div>
-
 InfoQ - <a href="https://www.infoq.com/articles/consensual-software">Consensual Software: How to prioritize user safety</a>
 
 DZone - <a href="https://dzone.com/articles/privacy-and-consensual-iot">Privacy and Consensual IoT</a>
