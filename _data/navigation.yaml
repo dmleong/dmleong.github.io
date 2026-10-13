@@ -1,20 +1,15 @@
-docs_list_title: Navigation
 docs:
 
 - title: About
-  local: true
   url: ../about
 
 - title: Recommended readings
-  local: true
   url: ../recommended-readings
 
 - title: Speaking
-  local: true
   url: ../public
 
 - title: Photos
-  local: true
   url: http://photos.danielleleong.com
 
 - title: Consensual software
