@@ -340,3 +340,17 @@ input {
 .similar-posts {
 	margin-top: 50px;
 }
+
+// Keep long, unbreakable content from forcing horizontal scroll on phones.
+// Reading descriptions contain pasted URLs: let them wrap instead of setting
+// the page width.
+#reading-list {
+	overflow-wrap: break-word;
+	word-break: break-word;
+}
+
+// Third-party tweet embeds render at a fixed width that spills a few px past
+// narrow viewports; contain it at the content column.
+.post-content {
+	overflow-x: hidden;
+}
